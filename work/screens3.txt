@@ -1,0 +1,1707 @@
+
+===== SCREEN: Splash =====
+Splash [FRAME] 1280×800 fill:#fffaf9 @80,275
+  Frame 1171276206 [INSTANCE] 1280×800 fill:#fffaf9 @0,0
+    Component 2 [FRAME] 183×172 AL:H gap:0 pad:0/0/0/0 al:MAX/MIN
+      Group 1000005888 [FRAME] 183×172 @0,0
+        Group 1000005880 [FRAME] 183×172 @0,0
+          Frame 1000005879 [FRAME] 183×172 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+            Group 1000005853 [FRAME] 167×172 @0,0
+              Group 1000005849 [FRAME] 166×138 @0,0
+              Group 1000005850 [FRAME] 167×138 @0,0
+            Frame 1171276207 [FRAME] 0×172 @183,0
+              Frame 36 [FRAME] 422×172 @0,0
+                T fs:105.61103057861328 Bold #ab5df0 "Memory\nBoard"
+
+===== SCREEN: Welcome =====
+Welcome [FRAME] 1280×800 fill:#ffffff @80,1155
+  unsplash:Cc10IJDoj78 [ROUNDED_RECTANGLE] 640×800 fill:IMG:852ed8c34afeea81f9d87394ea1b6f3d37d3c378 @0,0
+  Frame 1171276278 [FRAME] 528×300 AL:V gap:40 pad:0/0/0/0 al:MIN/MIN
+    Frame 1171276277 [FRAME] 528×212 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+      T fs:48 Semi Bold #2b2d42 "Welcome to MemoryBoard!"
+      T fs:20 Medium #6b7280 "Let's get started! Over the next few screens, we will guide you through the process of connecting your board."
+    Button [INSTANCE] 528×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+      T fs:16 Medium #ffffff "Get started"
+      icon:plus 20 
+
+===== SCREEN: WiFi connection =====
+WiFi connection [FRAME] 1280×800 fill:#ffffff @80,2035
+  Frame 1171276281 [FRAME] 560×756 AL:V gap:40 pad:0/0/0/0 al:MIN/CENTER
+    Frame 1171276280 [FRAME] 560×98 AL:V gap:16 pad:0/0/0/0 al:MIN/CENTER
+      T fs:48 Semi Bold #2b2d42 "Wi-Fi connection"
+      T fs:20 Medium #6b7280 "Choose your network and connect to continue"
+    Frame 1171276199 [FRAME] 525×224 r:10/10/10/10 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+      Frame 1171276112 [FRAME] 525×56 fill:#ffffff AL:H gap:8 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+        Frame 1171276128 [FRAME] 493×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+          Frame 2147224034 [FRAME] 421×24 AL:V gap:8 pad:0/0/0/0 al:CENTER/MIN
+            T fs:20 Medium #2b2d42 "WiFi name 2.4G"
+          Frame 1171276198 [FRAME] 64×24 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+            icon:lock-03 24 
+            icon:wifi 24 
+      Frame 1171276113 [FRAME] 525×56 fill:#ffffff AL:H gap:8 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+        Frame 1171276128 [FRAME] 493×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+          T fs:20 Medium #2b2d42 "WiFi name 5G"
+          icon:Frame 1171276198 24 
+      Frame 1171276114 [FRAME] 525×56 fill:#ffffff AL:H gap:8 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+        Frame 1171276128 [FRAME] 493×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+          T fs:20 Medium #2b2d42 "WiFi name 2.4G"
+          Frame 1171276198 [FRAME] 64×24 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+            icon:lock-03 24 
+            icon:wifi 24 
+      Frame 1171276115 [FRAME] 525×56 fill:#ffffff AL:H gap:8 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+        Frame 1171276128 [FRAME] 493×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+          T fs:20 Medium #2b2d42 "WiFi name 2.4G"
+          Frame 1171276198 [FRAME] 64×24 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+            icon:lock-03 24 
+            icon:wifi 24 
+    Frame 2147224016 [FRAME] 525×218 fill:#ffffff r:16/16/16/16 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN stroke:/1
+      Frame 2147224011 [FRAME] 493×186 AL:V gap:20 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224043 [FRAME] 493×55 AL:H gap:12 pad:0/0/0/0 al:SPACE_EVENLY/CENTER
+          Button [FRAME] 48×48 fill:#f3f4f6 r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+            icon:settings 20 
+          Frame 2147224045 [FRAME] 348×55 AL:V gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224044 [FRAME] 149×24 AL:H gap:12 pad:0/0/0/0 al:CENTER/MIN
+              Frame 2147224018 [FRAME] 149×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/CENTER
+                T fs:20 Medium #2b2d42 "Network Status"
+            T fs:16 Regular #6b7280 "Check the status of your network and devices"
+          Button [FRAME] 48×48 fill:#f3f4f6 r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+            icon:settings 20 
+        Frame 2147224040 [FRAME] 493×111 AL:H gap:16 pad:16/0/0/0 al:SPACE_EVENLY/CENTER
+          Frame 2147224037 [FRAME] 77×95 AL:V gap:8 pad:0/0/0/0 al:CENTER/CENTER
+            Frame 2147224035 [FRAME] 42×42 fill:#f3f4f6 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+              icon:language 20 
+            Frame 2147224018 [FRAME] 52×17 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:14 Regular #2b2d42 "Internet"
+            Chip [INSTANCE] 77×20 fill:#d2f9e7 r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+              Ellipse 1 [ELLIPSE] 8×8 fill:#085d4a @12,6
+              T fs:12 Medium #085d4a "Online"
+          Rectangle 18822 [ROUNDED_RECTANGLE] 75×1 fill:#d9d9d9 @102,63
+          Frame 2147224038 [FRAME] 69×95 AL:V gap:8 pad:0/0/0/0 al:CENTER/CENTER
+            Frame 2147224035 [FRAME] 42×42 fill:#f3f4f6 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+              icon:router 20 
+            Frame 2147224018 [FRAME] 44×17 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:14 Regular #2b2d42 "Router"
+            Chip [INSTANCE] 69×20 fill:#f3f4f6 r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+              Ellipse 1 [ELLIPSE] 8×8 fill:#085d4a @12,6
+              T fs:12 Medium #085d4a "Error"
+          Rectangle 18823 [ROUNDED_RECTANGLE] 75×1 fill:#d9d9d9 @295,63
+          Frame 2147224039 [FRAME] 98×95 AL:V gap:8 pad:0/0/0/0 al:CENTER/CENTER
+            Frame 2147224035 [FRAME] 42×42 fill:#f3f4f6 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+              icon:tv 20 
+            Frame 2147224018 [FRAME] 98×17 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:14 Regular #2b2d42 "Memory Board"
+            Chip [INSTANCE] 79×20 fill:#fee2e3 r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+              Ellipse 1 [ELLIPSE] 8×8 fill:#9a1a1e @12,6
+              T fs:12 Medium #9a1a1e "Offline"
+          icon:Frame 2147224041 20 #d2f9e7
+          icon:Frame 2147224042 20 #fee2e3
+    Frame 1171276279 [FRAME] 560×96 AL:V gap:32 pad:0/0/0/0 al:MIN/CENTER
+      Button [INSTANCE] 560×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        T fs:16 Medium #ffffff "Connect"
+        icon:plus 20 
+      Frame 1171276228 [FRAME] 88×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+        Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#7f2ccb r:100/100/100/100 @0,0
+        Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @24,0
+        Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @48,0
+        Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @72,0
+
+===== SCREEN: Modal - Wi fi Details =====
+Modal - Wi fi Details [FRAME] 1280×800 fill:#ffffff @80,2915
+  Frame 1171276281 [FRAME] 560×756 AL:V gap:40 pad:0/0/0/0 al:MIN/CENTER
+    Frame 1171276280 [FRAME] 560×98 AL:V gap:16 pad:0/0/0/0 al:MIN/CENTER
+      T fs:48 Semi Bold #2b2d42 "Wi-Fi connection"
+      T fs:20 Medium #6b7280 "Choose your network and connect to continue"
+    Frame 1171276199 [FRAME] 525×224 r:10/10/10/10 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+      Frame 1171276112 [FRAME] 525×56 fill:#ffffff AL:H gap:8 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+        Frame 1171276128 [FRAME] 493×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+          Frame 2147224034 [FRAME] 421×24 AL:V gap:8 pad:0/0/0/0 al:CENTER/MIN
+            T fs:20 Medium #2b2d42 "WiFi name 2.4G"
+          Frame 1171276198 [FRAME] 64×24 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+            icon:lock-03 24 
+            icon:wifi 24 
+      Frame 1171276113 [FRAME] 525×56 fill:#ffffff AL:H gap:8 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+        Frame 1171276128 [FRAME] 493×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+          T fs:20 Medium #2b2d42 "WiFi name 5G"
+          icon:Frame 1171276198 24 
+      Frame 1171276114 [FRAME] 525×56 fill:#ffffff AL:H gap:8 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+        Frame 1171276128 [FRAME] 493×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+          T fs:20 Medium #2b2d42 "WiFi name 2.4G"
+          Frame 1171276198 [FRAME] 64×24 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+            icon:lock-03 24 
+            icon:wifi 24 
+      Frame 1171276115 [FRAME] 525×56 fill:#ffffff AL:H gap:8 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+        Frame 1171276128 [FRAME] 493×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+          T fs:20 Medium #2b2d42 "WiFi name 2.4G"
+          Frame 1171276198 [FRAME] 64×24 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+            icon:lock-03 24 
+            icon:wifi 24 
+    Frame 2147224016 [FRAME] 525×218 fill:#ffffff r:16/16/16/16 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN stroke:/1
+      Frame 2147224011 [FRAME] 493×186 AL:V gap:20 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224043 [FRAME] 493×55 AL:H gap:12 pad:0/0/0/0 al:SPACE_EVENLY/CENTER
+          Button [FRAME] 48×48 fill:#f3f4f6 r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+            icon:settings 20 
+          Frame 2147224045 [FRAME] 348×55 AL:V gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224044 [FRAME] 149×24 AL:H gap:12 pad:0/0/0/0 al:CENTER/MIN
+              Frame 2147224018 [FRAME] 149×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/CENTER
+                T fs:20 Medium #2b2d42 "Network Status"
+            T fs:16 Regular #6b7280 "Check the status of your network and devices"
+          Button [FRAME] 48×48 fill:#f3f4f6 r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+            icon:settings 20 
+        Frame 2147224040 [FRAME] 493×111 AL:H gap:16 pad:16/0/0/0 al:SPACE_EVENLY/CENTER
+          Frame 2147224037 [FRAME] 77×95 AL:V gap:8 pad:0/0/0/0 al:CENTER/CENTER
+            Frame 2147224035 [FRAME] 42×42 fill:#f3f4f6 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+              icon:language 20 
+            Frame 2147224018 [FRAME] 52×17 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:14 Regular #2b2d42 "Internet"
+            Chip [INSTANCE] 77×20 fill:#d2f9e7 r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+              Ellipse 1 [ELLIPSE] 8×8 fill:#085d4a @12,6
+              T fs:12 Medium #085d4a "Online"
+          Rectangle 18822 [ROUNDED_RECTANGLE] 75×1 fill:#d9d9d9 @102,63
+          Frame 2147224038 [FRAME] 69×95 AL:V gap:8 pad:0/0/0/0 al:CENTER/CENTER
+            Frame 2147224035 [FRAME] 42×42 fill:#f3f4f6 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+              icon:router 20 
+            Frame 2147224018 [FRAME] 44×17 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:14 Regular #2b2d42 "Router"
+            Chip [INSTANCE] 69×20 fill:#f3f4f6 r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+              Ellipse 1 [ELLIPSE] 8×8 fill:#085d4a @12,6
+              T fs:12 Medium #085d4a "Error"
+          Rectangle 18823 [ROUNDED_RECTANGLE] 75×1 fill:#d9d9d9 @295,63
+          Frame 2147224039 [FRAME] 98×95 AL:V gap:8 pad:0/0/0/0 al:CENTER/CENTER
+            Frame 2147224035 [FRAME] 42×42 fill:#f3f4f6 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+              icon:tv 20 
+            Frame 2147224018 [FRAME] 98×17 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:14 Regular #2b2d42 "Memory Board"
+            Chip [INSTANCE] 79×20 fill:#fee2e3 r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+              Ellipse 1 [ELLIPSE] 8×8 fill:#9a1a1e @12,6
+              T fs:12 Medium #9a1a1e "Offline"
+          icon:Frame 2147224041 20 #d2f9e7
+          icon:Frame 2147224042 20 #fee2e3
+    Frame 1171276279 [FRAME] 560×96 AL:V gap:32 pad:0/0/0/0 al:MIN/CENTER
+      Button [INSTANCE] 560×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        T fs:16 Medium #ffffff "Connect"
+        icon:plus 20 
+      Frame 1171276228 [FRAME] 88×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+        Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#7f2ccb r:100/100/100/100 @0,0
+        Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @24,0
+        Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @48,0
+        Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @72,0
+  Background [INSTANCE] 1280×800 fill:#424242@0.70 AL:H gap:10 pad:341/137/341/137 al:CENTER/CENTER
+    Frame 3 [FRAME] 1166×186 AL:V gap:12 pad:0/0/0/0 al:MIN/CENTER
+      Loading - Animação [FRAME] 150×150 @508,0
+        2 [FRAME] 150×150 @0,0
+          Ellipse 1 [ELLIPSE] 22×22 fill:#7f2ccb @65,128
+      T fs:20 Medium #ffffff "Loading..."
+  Popups [FRAME] 995×682 fill:#ffffff r:23/23/23/23 AL:V gap:12 pad:46/46/46/46 al:MIN/CENTER
+    Frame 2147223385 [FRAME] 903×590 AL:V gap:16 pad:0/0/0/0 al:CENTER/CENTER
+      Frame 2147224033 [FRAME] 903×82 AL:H gap:35 pad:0/0/16/0 al:CENTER/MIN stroke:#f3f4f6/1
+        Frame 2147224048 [FRAME] 820×66 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+          Frame 2147224035 [FRAME] 66×66 fill:#7f2ccb r:13/13/13/13 AL:H gap:16 pad:0/9/0/9 al:CENTER/CENTER
+            icon:wifi 31 
+          Frame 2147224049 [FRAME] 183×55 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+            T fs:24 Semi Bold #2b2d42 "Network details"
+            Frame 2147224057 [FRAME] 108×22 AL:H gap:6 pad:0/0/0/0 al:MIN/CENTER
+              Ellipse 1 [ELLIPSE] 8×8 fill:#088767 @0,7
+              T fs:18 Regular #088767 "Connected"
+        Button [INSTANCE] 48×48 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:8 pad:8/8/8/8 al:CENTER/CENTER stroke:#f3f4f6/1
+          icon:plus 20 
+      Frame 2147224047 [FRAME] 903×492 AL:V gap:48 pad:0/0/0/0 al:MIN/MIN
+        Frame 2147224055 [FRAME] 903×317 AL:H gap:24 pad:0/0/0/0 al:MIN/CENTER
+          Frame 2147224052 [FRAME] 439×317 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+            Frame 2147224018 [FRAME] 135×29 AL:V gap:0 pad:0/0/0/0 al:CENTER/CENTER
+              T fs:24 Semi Bold #2b2d42 "Connection"
+            Frame 2147224048 [FRAME] 240×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:wifi 20 
+              Frame 2147224049 [FRAME] 186×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "Network Name (SSID)"
+                T fs:18 Regular #2b2d42 "Grandma's House"
+            Frame 2147224049 [FRAME] 195×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:lock 20 
+              Frame 2147224049 [FRAME] 141×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "Security Type"
+                T fs:18 Regular #2b2d42 "WPA2-Personal1"
+            Frame 2147224050 [FRAME] 144×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:podcasts 20 
+              Frame 2147224049 [FRAME] 90×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "Frequency"
+                T fs:18 Regular #2b2d42 "2.4 GHz"
+            Frame 2147224051 [FRAME] 149×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:fast_forward 20 
+              Frame 2147224049 [FRAME] 95×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "Link Speed"
+                T fs:18 Regular #2b2d42 "72 Mbps"
+          Frame 2147224053 [FRAME] 439×317 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+            Frame 2147224018 [FRAME] 122×29 AL:V gap:0 pad:0/0/0/0 al:CENTER/CENTER
+              T fs:24 Semi Bold #2b2d42 "IP address"
+            Frame 2147224048 [FRAME] 161×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:location_on 20 
+              Frame 2147224049 [FRAME] 107×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "IP Address"
+                T fs:18 Regular #2b2d42 "192.168.1.101"
+            Frame 2147224049 [FRAME] 177×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:polyline 20 
+              Frame 2147224049 [FRAME] 123×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "Subnet Mask"
+                T fs:18 Regular #2b2d42 "255.255.255.0"
+            Frame 2147224050 [FRAME] 195×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:router 20 
+              Frame 2147224049 [FRAME] 141×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "Default Gateway"
+                T fs:18 Regular #2b2d42 "192.168.1.1"
+            Frame 2147224051 [FRAME] 189×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:dns 20 
+              Frame 2147224049 [FRAME] 135×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "Secondary DNS"
+                T fs:18 Regular #2b2d42 "8.8.4.4"
+        Frame 2147224054 [FRAME] 903×101 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+          Frame 2147224018 [FRAME] 80×29 AL:V gap:0 pad:0/0/0/0 al:CENTER/CENTER
+            T fs:24 Semi Bold #2b2d42 "Device"
+          Frame 2147224056 [FRAME] 903×48 AL:H gap:24 pad:0/0/0/0 al:MIN/MIN
+            Frame 2147224048 [FRAME] 439×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:fingerprint 20 
+              Frame 2147224049 [FRAME] 156×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "MAC Address"
+                T fs:18 Regular #2b2d42 "A4:CF:12:88:3E:91"
+            Frame 2147224049 [FRAME] 439×48 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+              Frame 2147224035 [FRAME] 42×42 fill:#7f2ccb@0.10 r:8/8/8/8 AL:H gap:10 pad:0/6/0/6 al:CENTER/CENTER
+                icon:desktop_mac 20 
+              Frame 2147224049 [FRAME] 174×48 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                T fs:18 Regular #6b7280 "Host Name"
+                T fs:18 Regular #2b2d42 "MemoryBoard-Local"
+
+===== SCREEN: Date and Time =====
+Date and Time [FRAME] 1280×800 fill:#ffffff @80,3795
+  Frame 1171276282 [FRAME] 560×467 AL:V gap:40 pad:0/0/0/0 al:MIN/CENTER
+    Frame 1171276280 [FRAME] 560×137 AL:V gap:16 pad:0/0/0/0 al:MIN/CENTER
+      T fs:52 Bold #2b2d42 "Date and time"
+      T fs:24 Regular #6b7280 "Select your region and time zone to set date and time automatically"
+    Frame 1171276283 [FRAME] 560×154 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+      Input [INSTANCE] 560×65 AL:V gap:8 pad:0/0/0/0 al:MIN/MIN
+        Input/Label [INSTANCE] 90×17 AL:H gap:4 pad:0/0/0/0 al:MIN/CENTER
+          T fs:14 Medium #1f2937 "Input label"
+          icon:alert-circle 16 
+        Dropdown [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:8 pad:12/4/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+          T fs:16 Regular #6b7280 "Americas"
+          icon:Arrow 12 
+      Input [INSTANCE] 560×65 AL:V gap:8 pad:0/0/0/0 al:MIN/MIN
+        Input/Label [INSTANCE] 90×17 AL:H gap:4 pad:0/0/0/0 al:MIN/CENTER
+          T fs:14 Medium #1f2937 "Input label"
+          icon:alert-circle 16 
+        Dropdown [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:8 pad:12/4/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+          T fs:16 Regular #6b7280 "New York - Eastern Stabdard Time (GMT-05:00)"
+          icon:Arrow 12 
+    Frame 1171276279 [FRAME] 560×96 AL:V gap:32 pad:0/0/0/0 al:MIN/CENTER
+      Button [INSTANCE] 560×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        T fs:16 Medium #ffffff "Continue"
+        icon:plus 20 
+      Frame 1171276228 [FRAME] 88×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+        Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @0,0
+        Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#7f2ccb r:100/100/100/100 @24,0
+        Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @48,0
+        Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @72,0
+
+===== SCREEN: Download and connect =====
+Download and connect [FRAME] 1280×800 fill:#ffffff @80,4675
+  Frame 1171276281 [FRAME] 610×685 AL:V gap:40 pad:0/0/0/0 al:MIN/CENTER
+    Frame 1171276280 [FRAME] 610×137 AL:V gap:16 pad:0/0/0/0 al:MIN/CENTER
+      T fs:52 Bold #2b2d42 "Download"
+      T fs:24 Regular #6d758f "Download the MemoryBoard app on your phone via the QR Code below"
+    Frame 2147223880 [FRAME] 610×372 AL:H gap:120 pad:0/0/0/0 al:MIN/MIN
+      Frame 2147223881 [FRAME] 232×372 AL:V gap:16 pad:16/16/16/16 al:MIN/CENTER
+        Memory_board_-_Play_Store-1024 1 [FRAME] 200×200 @16,16
+          Group [FRAME] 187×187 @6,6
+            Group [FRAME] 187×187 @0,0
+              Group [FRAME] 45×45 @0,0
+                Group [FRAME] 45×45 @0,0
+              Group [FRAME] 45×45 @142,0
+                Group [FRAME] 45×45 @0,0
+                  Group [FRAME] 45×45 @45,0
+              Group [FRAME] 45×45 @0,142
+                Group [FRAME] 45×45 @0,0
+                  Group [FRAME] 45×45 @0,45
+        Frame 2147223884 [FRAME] 183×47 AL:V gap:4 pad:0/0/0/0 al:MIN/CENTER
+          T fs:20 Semi Bold #2b2d42 "Google Play"
+          T fs:16 Medium #6b7280 "Disponível para Android"
+        Frame 2147223882 [FRAME] 157×61 fill:#2b2d42 r:8/8/8/8 AL:H gap:10 pad:12/12/12/12 al:CENTER/CENTER
+          icon:google_play 32 
+          Frame 2147223883 [FRAME] 91×37 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+            T fs:12 Medium #d1d5db "Get it on"
+            T fs:16 Medium #ffffff "Google Play"
+      Frame 2147223882 [FRAME] 258×372 AL:V gap:16 pad:16/16/16/16 al:MIN/CENTER
+        Memory_board_-_Apple-1024 1 [FRAME] 200×200 @29,16
+          Group [FRAME] 187×187 @6,6
+            Group [FRAME] 187×187 @0,0
+              Group [FRAME] 45×45 @0,0
+                Group [FRAME] 45×45 @0,0
+              Group [FRAME] 45×45 @142,0
+                Group [FRAME] 45×45 @0,0
+                  Group [FRAME] 45×45 @45,0
+              Group [FRAME] 45×45 @0,142
+                Group [FRAME] 45×45 @0,0
+                  Group [FRAME] 45×45 @0,45
+        Frame 2147223885 [FRAME] 226×47 AL:V gap:4 pad:0/0/0/0 al:MIN/CENTER
+          T fs:20 Semi Bold #2b2d42 "Apple Store"
+          T fs:16 Medium #6b7280 "Disponível para iPhone e iPad"
+        Frame 2147223883 [FRAME] 156×61 fill:#2b2d42 r:8/8/8/8 AL:H gap:10 pad:12/12/12/12 al:CENTER/CENTER
+          icon:app_store 32 
+          Frame 2147223883 [FRAME] 90×37 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+            T fs:12 Medium #9ca3af "Get it on"
+            T fs:16 Medium #ffffff "Apple Store"
+    Frame 1171276279 [FRAME] 610×96 AL:V gap:32 pad:0/0/0/0 al:MIN/CENTER
+      Button [INSTANCE] 610×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        T fs:16 Medium #ffffff "Continue"
+        icon:plus 20 
+      Frame 1171276228 [FRAME] 88×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+        Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @0,0
+        Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @24,0
+        Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#7f2ccb r:100/100/100/100 @48,0
+        Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @72,0
+
+===== SCREEN: Download and connect =====
+Download and connect [FRAME] 1280×800 fill:#ffffff @80,5555
+  Frame 1171276281 [FRAME] 560×383 AL:V gap:40 pad:0/0/0/0 al:MIN/CENTER
+    Frame 1171276280 [FRAME] 560×98 AL:V gap:16 pad:0/0/0/0 al:MIN/CENTER
+      T fs:48 Semi Bold #2b2d42 "Connect"
+      T fs:20 Medium #6b7280 "Enter the 5-digit code manually to start using your phone."
+    Frame 1171276207 [FRAME] 281×109 AL:V gap:8 pad:0/0/0/0 al:MIN/CENTER
+      T fs:64 Semi Bold #2b2d42 "1 5 5 8 4"
+      T fs:20 Medium #6b7280 "The code will expire in: 00:50"
+    Frame 1171276279 [FRAME] 560×96 AL:V gap:32 pad:0/0/0/0 al:MIN/CENTER
+      Button [INSTANCE] 560×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        T fs:16 Medium #ffffff "Continue"
+        icon:plus 20 
+      Frame 1171276228 [FRAME] 88×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+        Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @0,0
+        Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @24,0
+        Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#f6ecff r:100/100/100/100 @48,0
+        Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#7f2ccb r:100/100/100/100 @72,0
+
+===== SCREEN: Download and connect =====
+Download and connect [FRAME] 1280×800 fill:#fffaf9 @80,6435
+  Frame 1171276282 [FRAME] 560×335 AL:V gap:40 pad:0/0/0/0 al:MIN/CENTER
+    Frame 1171276280 [FRAME] 560×98 AL:V gap:16 pad:0/0/0/0 al:MIN/CENTER
+      T fs:48 Semi Bold #2b2d42 "Connect"
+      T fs:20 Medium #6b7280 "Enter the 5-digit code manually to start using your phone."
+    Frame 1171276207 [FRAME] 281×109 AL:V gap:8 pad:0/0/0/0 al:MIN/CENTER
+      T fs:64 Semi Bold #2b2d42 "1 5 5 8 4"
+      T fs:20 Medium #6b7280 "The code will expire in: 00:50"
+    Button [INSTANCE] 560×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+      T fs:16 Medium #ffffff "Continue"
+      icon:plus 20 
+  Background [INSTANCE] 1280×800 fill:#424242@0.70 AL:H gap:10 pad:341/137/341/137 al:CENTER/CENTER
+    Frame 3 [FRAME] 1166×186 AL:V gap:12 pad:0/0/0/0 al:MIN/CENTER
+      Loading - Animação [FRAME] 150×150 @508,0
+        2 [FRAME] 150×150 @0,0
+          Ellipse 1 [ELLIPSE] 22×22 fill:#7f2ccb @65,128
+      T fs:20 Medium #ffffff "Loading..."
+  https://lottiefiles.com/animations/loading-check-P95EfKyBQJ [ROUNDED_RECTANGLE] 390×390 fill:IMG:6528480c43cc820ec090f221f51e85cf18d21a16 @445,205
+
+===== SCREEN: Welcome =====
+Welcome [FRAME] 1280×800 fill:#ffffff @80,7315
+  unsplash:Cc10IJDoj78 [ROUNDED_RECTANGLE] 640×800 fill:IMG:8e40fba26ed375e5dc4fd33c88ce61adb76bda8b @0,0
+  Frame 1171276278 [FRAME] 528×402 AL:V gap:40 pad:0/0/0/0 al:MIN/MIN
+    Frame 1171276277 [FRAME] 528×314 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+      Frame 2147223888 [FRAME] 528×86 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+        Frame 2147223889 [FRAME] 528×86 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+          Frame 2147223886 [FRAME] 528×58 AL:V gap:8 pad:0/0/0/0 al:MIN/MIN
+            T fs:48 Semi Bold #2b2d42 "Success!"
+          T fs:20 Medium #6d758f "You have successfully set up your Memoryboard."
+      Frame 2147223891 [FRAME] 528×156 AL:V gap:20 pad:0/0/0/0 al:MIN/MIN
+        Frame 2147223887 [FRAME] 528×24 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+          T fs:20 Medium #2b2d42 "What to do next:"
+        Frame 2147223889 [FRAME] 528×112 AL:V gap:20 pad:0/0/0/0 al:MIN/MIN
+          T fs:20 Medium #2b2d42 "Post yout first message in the app."
+          T fs:20 Medium #2b2d42 "Add to your Care Circle in the app."
+          T fs:20 Medium #2b2d42 "Connect another board"
+      Frame 2147223890 [FRAME] 528×24 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+        T fs:20 Light Italic #6d758f "Your care and effort mean everything."
+    Button [INSTANCE] 528×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+      T fs:16 Medium #ffffff "Let’s start!"
+      icon:plus 20 
+
+===== SCREEN: Board connected Thank you for setting up this tablet for your loved one. Your care and effort will make a big difference. Click "Let’s start!" to begin using this board. =====
+Board connected Thank you for setting up this tablet for your loved one. Your care and effort will make a big difference. Click "Let’s start!" to begin using this board. [FRAME] 1280×800 fill:#ffffff @80,8195
+  Group 1000005862 [FRAME] 1280×800 @0,0
+    unsplash:Cc10IJDoj78 [ROUNDED_RECTANGLE] 640×800 fill:IMG:f420b580f1d8b80520565585aec36572a5b647b8 @0,0
+    Frame 1171276205 [INSTANCE] 313×63 fill:#2b2d42@0.70 r:0/0/16/16 AL:V gap:10 pad:16/15/16/15 al:MIN/MIN
+      Frame 1171276204 [FRAME] 519×31 AL:H gap:88 pad:0/0/0/0 al:MIN/MIN
+        icon:settings-02 30 
+        Frame 1171276203 [FRAME] 283×31 AL:H gap:8 pad:0/0/0/0 al:MIN/MAX
+          T fs:40 Medium #ffffff "10:00am"
+          T fs:20 Regular #ffffff "Jun, 15, 2024"
+        icon:wifi 30 
+  Frame 1171276277 [FRAME] 528×258 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+    Featured icon [FRAME] 70×70 fill:#f9fafb r:41/41/41/41 @0,0 stroke:#eaecf0/11.666666030883789
+      icon:phone-01 35 
+    T fs:48 Semi Bold #2b2d42 "Waiting for new messages!"
+    T fs:20 Medium #6b7280 "Here’s to a quiet moment, filled with love."
+
+===== SCREEN: Landscape =====
+Landscape [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,9075
+  Frame 1171276228 [FRAME] 136×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+    Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @0,0
+    Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @24,0
+    Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @48,0
+    Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @72,0
+    Rectangle 18816 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @96,0
+    Rectangle 18817 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @120,0
+  Frame 2147224004 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 2147224003 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147224001 [FRAME] 598×48 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Rectangle 18820 [ROUNDED_RECTANGLE] 92×8 fill:#474747 r:1000/1000/1000/1000 @253,20
+  Frame 2147224002 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+
+===== SCREEN: Landscape - Close =====
+Landscape - Close [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,9955
+  Frame 1171276228 [FRAME] 136×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+    Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @0,0
+    Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @24,0
+    Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @48,0
+    Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @72,0
+    Rectangle 18816 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @96,0
+    Rectangle 18817 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @120,0
+  Frame 2147223968 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 2147223967 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×83 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 2147223966 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+
+===== SCREEN: Landscape - Open =====
+Landscape - Open [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,10835
+  Frame 1171276228 [FRAME] 136×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+    Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @0,0
+    Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @24,0
+    Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @48,0
+    Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @72,0
+    Rectangle 18816 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @96,0
+    Rectangle 18817 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @120,0
+  Frame 2147223968 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 2147223967 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 2147223966 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+
+===== SCREEN: Landscape - Settings =====
+Landscape - Settings [FRAME] 1280×1319 fill:#ffffff @80,11715
+  Frame 2147224066 [FRAME] 958×1237 AL:H gap:158 pad:0/0/0/0 al:MIN/MIN
+    Frame 2147223941 [FRAME] 99×48 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+      Button [INSTANCE] 48×48 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:8 pad:8/8/8/8 al:CENTER/CENTER stroke:#f3f4f6/1
+        icon:plus 20 
+      T fs:18 Medium #2b2d42 "Back"
+    Frame 2147224005 [FRAME] 701×1237 AL:V gap:20 pad:64/0/0/0 al:MIN/CENTER
+      Frame 2147224022 [FRAME] 701×94 AL:V gap:12 pad:0/0/0/0 al:MIN/MIN
+        T fs:48 Semi Bold #2b2d42 "Settings"
+        T fs:20 Semi Bold #6b7280 "Select your time zone to set the date and time automatically "
+      Frame 2147224015 [FRAME] 701×176 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+        T fs:20 Semi Bold #374151 "First, select your region. Next, select your time zone."
+        Frame 2147224019 [FRAME] 669×96 AL:V gap:16 pad:0/0/0/0 al:MIN/MIN
+          Input [INSTANCE] 669×40 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+            Dropdown [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:8 pad:12/4/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+              T fs:16 Regular #6b7280 "Americas"
+              icon:Arrow 12 
+          Input [INSTANCE] 669×40 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+            Dropdown [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:8 pad:12/4/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+              T fs:16 Regular #6b7280 "New York - Eastern Standard Time (GM-05:00)"
+              icon:Arrow 12 
+      Frame 2147224021 [FRAME] 701×145 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+        Frame 2147224006 [FRAME] 669×24 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+          Frame 2147224017 [FRAME] 601×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224018 [FRAME] 113×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:20 Medium #2b2d42 "Sleep mode"
+          Toggle [INSTANCE] 44×24 fill:#7f2ccb r:1000/1000/1000/1000 AL:V gap:0 pad:2/2/2/2 al:CENTER/MAX
+            Ellipse 1 [ELLIPSE] 16×16 fill:#ffffff @26,4
+        Frame 2147224010 [FRAME] 669×65 AL:H gap:24 pad:0/0/0/0 al:MIN/MIN
+          Input [INSTANCE] 323×65 AL:V gap:8 pad:0/0/0/0 al:MIN/MIN
+            Input/Label [INSTANCE] 90×17 AL:H gap:4 pad:0/0/0/0 al:MIN/CENTER
+              T fs:14 Medium #1f2937 "Input label"
+              icon:alert-circle 16 
+            Input [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:10 pad:12/12/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+              Frame 1 [FRAME] 276×20 AL:H gap:10 pad:0/0/0/0 al:SPACE_BETWEEN/CENTER
+                T fs:16 Regular #6b7280 "07:00pm"
+                icon:alert-circle 20 
+          Input [INSTANCE] 323×65 AL:V gap:8 pad:0/0/0/0 al:MIN/MIN
+            Input/Label [INSTANCE] 90×17 AL:H gap:4 pad:0/0/0/0 al:MIN/CENTER
+              T fs:14 Medium #1f2937 "Input label"
+              icon:alert-circle 16 
+            Input [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:10 pad:12/12/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+              Frame 1 [FRAME] 276×20 AL:H gap:10 pad:0/0/0/0 al:SPACE_BETWEEN/CENTER
+                T fs:16 Regular #6b7280 "07:00am"
+                icon:alert-circle 20 
+      Frame 2147224023 [FRAME] 701×145 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+        Frame 2147224006 [FRAME] 669×24 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+          Frame 2147224017 [FRAME] 601×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224018 [FRAME] 129×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:20 Medium #2b2d42 "Top bar clock"
+          Toggle [INSTANCE] 44×24 fill:#7f2ccb r:1000/1000/1000/1000 AL:V gap:0 pad:2/2/2/2 al:CENTER/MAX
+            Ellipse 1 [ELLIPSE] 16×16 fill:#ffffff @26,4
+        Frame 2147223956 [FRAME] 669×65 fill:#ffffff r:12/12/12/12 AL:V gap:8 pad:4/4/4/4 al:MIN/MIN stroke:#e5e7eb/1
+          Frame 2147223946 [FRAME] 661×57 AL:H gap:0 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147223945 [FRAME] 220×57 r:8/8/8/8 AL:V gap:7 pad:8/8/8/8 al:MIN/CENTER
+              icon:Frame 2147223961 20 
+              T fs:12 Regular #2b2d42 "SMALL"
+            Frame 2147223944 [FRAME] 220×57 fill:#f3f4f6 r:8/8/8/8 AL:V gap:7 pad:8/8/8/8 al:MIN/CENTER
+              icon:Frame 2147223960 20 
+              T fs:12 Medium #4d0e87 "MEDIUM"
+            Frame 2147223946 [FRAME] 220×57 r:8/8/8/8 AL:V gap:7 pad:8/8/8/8 al:MIN/CENTER
+              icon:clock 20 
+              T fs:12 Regular #2b2d42 "LARGE"
+      Frame 2147224024 [FRAME] 701×372 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+        Frame 2147224006 [FRAME] 669×24 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+          Frame 2147224017 [FRAME] 601×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224018 [FRAME] 148×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:20 Medium #2b2d42 "Dementia clock"
+          Toggle [INSTANCE] 44×24 fill:#7f2ccb r:1000/1000/1000/1000 AL:V gap:0 pad:2/2/2/2 al:CENTER/MAX
+            Ellipse 1 [ELLIPSE] 16×16 fill:#ffffff @26,4
+        Frame 2147224065 [FRAME] 669×292 AL:V gap:16 pad:0/0/0/0 al:MIN/MIN
+          Frame 2147224064 [FRAME] 669×72 AL:V gap:24 pad:0/0/0/0 al:CENTER/CENTER
+            DIV-122 [FRAME] 669×72 AL:V gap:8 pad:0/0/0/0 al:CENTER/MIN
+              T fs:12 Regular #6b7280 "Choose a base color"
+              DIV-125 [FRAME] 669×50 AL:H gap:12 pad:0/0/0/0 al:SPACE_EVENLY/CENTER
+                BUTTON-132 [FRAME] 48×48 fill:#7f2ccb r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#4d0e87/2
+                  icon:check 20 
+                BUTTON-133 [FRAME] 48×48 fill:#ab5df0 r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-126 [FRAME] 48×48 fill:#ef4444 r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-134 [FRAME] 48×48 fill:#ec4899 r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-127 [FRAME] 48×48 fill:#f97316 r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-128 [FRAME] 48×48 fill:#eab308 r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-129 [FRAME] 48×48 fill:#22c55e r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-131 [FRAME] 48×48 fill:#3b82f6 r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-130 [FRAME] 48×48 fill:#1b1b1b r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-135 [FRAME] 48×48 fill:#6b7280 r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+                BUTTON-135 [FRAME] 48×48 fill:#f8f8f8 r:12/12/12/12 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER stroke:#e5e7eb/1
+          Frame 2147223942 [FRAME] 669×204 fill:#ffffff r:16/16/16/16 AL:V gap:8 pad:16/16/16/16 al:MIN/MIN stroke:#f3f4f6/1
+            Frame 2147224006 [FRAME] 637×19 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+              Frame 2147224017 [FRAME] 637×19 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+                Frame 2147224018 [FRAME] 61×19 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+                  T fs:16 Medium #6b7280 "Preview"
+            Input [FRAME] 637×145 AL:V gap:8 pad:0/0/0/0 al:MIN/MIN
+              Upload wrapper [FRAME] 637×145 fill:#f6ecff r:12/12/12/12 AL:V gap:16 pad:16/16/16/16 al:MIN/CENTER stroke:#e5e7eb/1
+                Frame 2147224000 [FRAME] 315×271 AL:V gap:18 pad:0/0/0/0 al:MIN/CENTER
+                  Frame 2147224004 [FRAME] 315×188 AL:V gap:11 pad:0/0/0/0 al:MIN/CENTER
+                    Frame 2147223994 [FRAME] 108×25 AL:H gap:6 pad:0/0/0/0 al:MIN/CENTER
+                      icon:Frame 1171276207 25 
+                      Frame 2147223995 [FRAME] 77×24 AL:V gap:2 pad:0/0/0/0 al:CENTER/MIN
+                    Frame 2147224003 [FRAME] 315×152 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+                      Frame 2147223963 [FRAME] 315×37 fill:#7f2ccb r:7/7/0/0 AL:V gap:0 pad:9/11/9/11 al:CENTER/CENTER stroke:#f3f4f6/0.4399793744087219
+                      Frame 2147223993 [FRAME] 315×115 fill:#ffffff r:0/0/7/7 AL:H gap:0 pad:10/20/10/20 al:CENTER/CENTER
+                  Frame 2147223998 [FRAME] 315×66 AL:H gap:10 pad:0/0/0/0 al:SPACE_EVENLY/MIN
+                    Frame 2147223998 [FRAME] 126×66 fill:#ffffff r:7/7/7/7 AL:V gap:7 pad:9/11/9/11 al:CENTER/CENTER stroke:#f3f4f6/0.4430379569530487
+                      T fs:8.860758781433105 Semi Bold #7f2ccb "Month"
+                      T fs:24.81012535095215 Semi Bold #7f2ccb "February"
+                    Frame 2147223995 [FRAME] 83×66 fill:#ffffff r:7/7/7/7 AL:V gap:7 pad:9/11/9/11 al:CENTER/CENTER stroke:#f3f4f6/0.4430379569530487
+                      T fs:8.860758781433105 Semi Bold #7f2ccb "Day"
+                      T fs:24.81012535095215 Semi Bold #7f2ccb "11"
+                    Frame 2147223999 [FRAME] 83×66 fill:#ffffff r:7/7/7/7 AL:V gap:7 pad:9/11/9/11 al:CENTER/CENTER stroke:#f3f4f6/0.4430379569530487
+                      T fs:8.860758781433105 Semi Bold #7f2ccb "Year"
+                      T fs:24.81012535095215 Semi Bold #7f2ccb "2026"
+      Frame 2147224017 [FRAME] 701×73 r:16/16/16/16 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN
+        Frame 2147224006 [FRAME] 669×41 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+          Frame 2147224017 [FRAME] 669×41 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224018 [FRAME] 141×41 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:20 Medium #2b2d42 "App version"
+              T fs:14 Medium #6b7280 "Memory Board v1.0.0"
+      Frame 2147224012 [FRAME] 701×48 AL:H gap:24 pad:0/0/0/0 al:MIN/MIN
+        Button [INSTANCE] 339×48 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER stroke:#9ca3af/1
+          T fs:16 Medium #2b2d42 "Check for updates"
+          icon:plus 20 
+        Button [INSTANCE] 339×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+          T fs:16 Medium #ffffff "Confirm"
+          icon:plus 20 
+
+===== SCREEN: Landscape - Settings =====
+Landscape - Settings [FRAME] 1280×853 fill:#fffaf9 @80,13114
+  Frame 2147224067 [FRAME] 958×781 AL:H gap:158 pad:0/0/0/0 al:MIN/MIN
+    Frame 2147223941 [FRAME] 99×48 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+      Button [INSTANCE] 48×48 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:8 pad:8/8/8/8 al:CENTER/CENTER stroke:#f3f4f6/1
+        icon:plus 20 
+      T fs:18 Medium #2b2d42 "Back"
+    Frame 2147224006 [FRAME] 701×781 AL:V gap:24 pad:64/0/0/0 al:MIN/CENTER
+      Frame 2147224022 [FRAME] 701×108 AL:V gap:12 pad:0/0/0/0 al:MIN/MIN
+        T fs:56 Semi Bold #2b2d42 "Settings"
+        T fs:24 Semi Bold #6b7280 "Select your time zone to set the date and time automatically "
+      Frame 2147224015 [FRAME] 701×176 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+        T fs:20 Semi Bold #374151 "First, select your region. Next, select your time zone."
+        Frame 2147224019 [FRAME] 669×96 AL:V gap:16 pad:0/0/0/0 al:MIN/MIN
+          Input [INSTANCE] 669×40 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+            Dropdown [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:8 pad:12/4/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+              T fs:16 Regular #6b7280 "Americas"
+              icon:Arrow 12 
+          Input [INSTANCE] 669×40 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+            Dropdown [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:8 pad:12/4/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+              T fs:16 Regular #6b7280 "New York - Eastern Standard Time (GM-05:00)"
+              icon:Arrow 12 
+      Frame 2147224021 [FRAME] 701×56 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+        Frame 2147224006 [FRAME] 669×24 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+          Frame 2147224017 [FRAME] 601×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224018 [FRAME] 113×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:20 Medium #2b2d42 "Sleep mode"
+          Toggle [INSTANCE] 44×24 fill:#e5e7eb r:1000/1000/1000/1000 AL:V gap:0 pad:2/2/2/2 al:CENTER/MIN
+            Ellipse 1 [ELLIPSE] 16×16 fill:#ffffff @2,4
+      Frame 2147224023 [FRAME] 701×56 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+        Frame 2147224006 [FRAME] 669×24 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+          Frame 2147224018 [FRAME] 601×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224018 [FRAME] 129×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:20 Medium #2b2d42 "Top bar clock"
+          Toggle [INSTANCE] 44×24 fill:#e5e7eb r:1000/1000/1000/1000 AL:V gap:0 pad:2/2/2/2 al:CENTER/MIN
+            Ellipse 1 [ELLIPSE] 16×16 fill:#ffffff @2,4
+      Frame 2147224024 [FRAME] 701×56 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+        Frame 2147224006 [FRAME] 669×24 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+          Frame 2147224018 [FRAME] 601×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224018 [FRAME] 148×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:20 Medium #2b2d42 "Dementia clock"
+          Toggle [INSTANCE] 44×24 fill:#e5e7eb r:1000/1000/1000/1000 AL:V gap:0 pad:2/2/2/2 al:CENTER/MIN
+            Ellipse 1 [ELLIPSE] 16×16 fill:#ffffff @2,4
+      Frame 2147224017 [FRAME] 701×73 r:16/16/16/16 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN
+        Frame 2147224006 [FRAME] 669×41 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+          Frame 2147224017 [FRAME] 669×41 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+            Frame 2147224018 [FRAME] 141×41 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+              T fs:20 Medium #2b2d42 "App version"
+              T fs:14 Medium #6b7280 "Memory Board v1.0.0"
+      Frame 2147224012 [FRAME] 701×48 AL:H gap:24 pad:0/0/0/0 al:MIN/MIN
+        Button [INSTANCE] 339×48 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER stroke:#9ca3af/1
+          T fs:16 Medium #2b2d42 "Check for updates"
+          icon:plus 20 
+        Button [INSTANCE] 339×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+          T fs:16 Medium #ffffff "Confirm"
+          icon:plus 20 
+
+===== SCREEN: Landscape - Modal updates =====
+Landscape - Modal updates [FRAME] 1280×800 fill:#fffaf9 @80,14047
+  Frame 2147224006 [FRAME] 701×557 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+    Frame 2147224022 [FRAME] 701×108 AL:V gap:12 pad:0/0/0/0 al:MIN/MIN
+      T fs:56 Semi Bold #2b2d42 "Settings"
+      T fs:24 Semi Bold #6b7280 "Select your time zone to set the date and time automatically "
+    Frame 2147224015 [FRAME] 701×176 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+      T fs:20 Semi Bold #374151 "First, select your region. Next, select your time zone."
+      Frame 2147224019 [FRAME] 669×96 AL:V gap:16 pad:0/0/0/0 al:MIN/MIN
+        Input [INSTANCE] 669×40 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+          Dropdown [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:8 pad:12/4/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+            T fs:16 Regular #6b7280 "Americas"
+            icon:Arrow 12 
+        Input [INSTANCE] 669×40 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+          Dropdown [FRAME] 300×40 fill:#ffffff r:8/8/8/8 AL:H gap:8 pad:12/4/12/12 al:MIN/CENTER stroke:#f3f4f6/1
+            T fs:16 Regular #6b7280 "New York - Eastern Standard Time (GM-05:00)"
+            icon:Arrow 12 
+    Frame 2147224021 [FRAME] 701×56 r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN
+      Frame 2147224006 [FRAME] 669×24 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224017 [FRAME] 601×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+          Frame 2147224018 [FRAME] 113×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+            T fs:20 Medium #2b2d42 "Sleep mode"
+        Toggle [INSTANCE] 44×24 fill:#e5e7eb r:1000/1000/1000/1000 AL:V gap:0 pad:2/2/2/2 al:CENTER/MIN
+          Ellipse 1 [ELLIPSE] 16×16 fill:#ffffff @2,4
+    Frame 2147224017 [FRAME] 701×73 r:16/16/16/16 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN
+      Frame 2147224006 [FRAME] 669×41 AL:H gap:24 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224017 [FRAME] 669×41 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+          Frame 2147224018 [FRAME] 141×41 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+            T fs:20 Medium #2b2d42 "App version"
+            T fs:14 Medium #6b7280 "Memory Board v1.0.0"
+    Frame 2147224012 [FRAME] 701×48 AL:H gap:24 pad:0/0/0/0 al:MIN/MIN
+      Button [INSTANCE] 339×48 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER stroke:#9ca3af/1
+        T fs:16 Medium #2b2d42 "Check for updates"
+        icon:plus 20 
+      Button [INSTANCE] 339×48 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        T fs:16 Medium #ffffff "Confirm"
+        icon:plus 20 
+  Frame 2147223941 [FRAME] 99×48 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+    Button [INSTANCE] 48×48 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:8 pad:8/8/8/8 al:CENTER/CENTER stroke:#f3f4f6/1
+      icon:plus 20 
+    T fs:18 Medium #2b2d42 "Back"
+  Background [INSTANCE] 1280×800 fill:#424242@0.70 AL:H gap:10 pad:341/137/341/137 al:CENTER/CENTER
+    Frame 3 [FRAME] 1166×186 AL:V gap:12 pad:0/0/0/0 al:MIN/CENTER
+      Loading - Animação [FRAME] 150×150 @508,0
+        2 [FRAME] 150×150 @0,0
+          Ellipse 1 [ELLIPSE] 22×22 fill:#7f2ccb @65,128
+      T fs:20 Medium #ffffff "Loading..."
+  Popups [FRAME] 1072×682 fill:#ffffff r:23/23/23/23 AL:V gap:12 pad:46/46/46/46 al:MIN/CENTER
+    Frame 2147223385 [FRAME] 980×590 AL:V gap:24 pad:0/0/0/0 al:CENTER/CENTER
+      Frame 2147224033 [FRAME] 980×55 AL:H gap:35 pad:0/0/0/0 al:CENTER/MIN
+        icon:Button 40 #ffffff
+        Logo [INSTANCE] 822×55 AL:H gap:6 pad:0/0/0/0 al:CENTER/CENTER
+          Group 1000005889 [FRAME] 226×226 @0,0
+          T fs:145 Bold #ab5df0 "Memory\nBoard"
+        Button [INSTANCE] 48×48 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:8 pad:8/8/8/8 al:CENTER/CENTER stroke:#f3f4f6/1
+          icon:plus 20 
+      Frame 2147224029 [FRAME] 980×511 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+        Table [FRAME] 980×511 fill:#ffffff r:12/12/12/12 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN stroke:#e5e7eb/1
+          Content [FRAME] 980×79 AL:V gap:16 pad:16/20/16/20 al:MIN/MIN stroke:#e5e7eb/1
+            Frame 2147224031 [FRAME] 940×47 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+              Frame 2147224032 [FRAME] 617×47 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                Frame 2147224030 [FRAME] 617×24 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+                  Frame 2147223824 [FRAME] 617×24 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+                    Frame 2147223817 [FRAME] 617×24 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+                      Frame 3 [FRAME] 247×24 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+                Frame 2147224031 [FRAME] 617×19 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+                  Frame 2147223824 [FRAME] 617×19 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+                    Frame 2147223817 [FRAME] 617×19 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+                      Frame 3 [FRAME] 507×19 AL:H gap:8 pad:0/0/0/0 al:MIN/CENTER
+              Switch [FRAME] 307×44 fill:#f3f4f6 r:8/8/8/8 AL:H gap:0 pad:4/4/4/4 al:CENTER/CENTER
+                Switch item [FRAME] 114×36 fill:#7f2ccb r:6/6/6/6 AL:H gap:8 pad:6/20/6/20 al:CENTER/CENTER
+                  T fs:16 Medium #ffffff "DEVELOP"
+                Switch item [FRAME] 100×36 r:6/6/6/6 AL:H gap:8 pad:6/20/6/20 al:CENTER/CENTER
+                  T fs:16 Regular #4b5563 "HOMOL"
+                Switch item [FRAME] 85×36 r:6/6/6/6 AL:H gap:8 pad:6/20/6/20 al:CENTER/CENTER
+                  T fs:16 Regular #4b5563 "PROD"
+          Content [FRAME] 980×360 AL:H gap:0 pad:0/0/0/0 al:MIN/MIN
+            Frame 2147223825 [FRAME] 62×360 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+              Table cell [INSTANCE] 62×40 fill:#f8f9fb AL:H gap:8 pad:8/12/8/12 al:MIN/CENTER
+                T fs:14 Medium #6b7280 "ID"
+                icon:chevron-selector-vertical 16 
+              Column [FRAME] 62×320 fill:#ffffff AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+                Table cell [INSTANCE] 62×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "1"
+                Table cell [INSTANCE] 62×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "2"
+                Table cell [INSTANCE] 62×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "3"
+                Table cell [INSTANCE] 62×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "4"
+                Table cell [INSTANCE] 62×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "5"
+            Frame 2147223831 [FRAME] 257×360 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+              Table cell [INSTANCE] 257×40 fill:#f8f9fb AL:H gap:8 pad:8/12/8/12 al:MIN/CENTER
+                T fs:14 Medium #6b7280 "Task / Version"
+                icon:chevron-selector-vertical 16 
+              Column [FRAME] 257×320 fill:#ffffff AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+                Table cell [INSTANCE] 257×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "White text on black background for waiting screen "
+                    T fs:12 Medium #6b7280 "v1.25.7"
+                Table cell [INSTANCE] 257×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "Board settings in the app"
+                    T fs:12 Medium #6b7280 "v1.25.7"
+                Table cell [INSTANCE] 257×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "New feature for collaborative editing"
+                    T fs:12 Medium #6b7280 "v1.26.0"
+                Table cell [INSTANCE] 257×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "Improved accessibility options"
+                    T fs:12 Medium #6b7280 "v1.26.0"
+                Table cell [INSTANCE] 257×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "Bug fixes and performance enhancements"
+                    T fs:12 Medium #6b7280 "v1.26.0"
+            Frame 2147223826 [FRAME] 136×360 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+              Table cell [INSTANCE] 136×40 fill:#f8f9fb AL:H gap:8 pad:8/12/8/12 al:MIN/CENTER
+                T fs:14 Medium #6b7280 "Type"
+                icon:chevron-selector-vertical 16 
+              Column [FRAME] 136×320 fill:#ffffff AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+                Table cell [INSTANCE] 136×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Chip [INSTANCE] 116×28 fill:#f6ecff r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+                    icon:Circle 16 
+                    T fs:14 Medium #4d0e87 "LABEL"
+                    icon:Circle 16 
+                Table cell [INSTANCE] 136×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Chip [INSTANCE] 116×28 fill:#f6ecff r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+                    icon:Circle 16 
+                    T fs:14 Medium #4d0e87 "LABEL"
+                    icon:Circle 16 
+                Table cell [INSTANCE] 136×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Chip [INSTANCE] 116×28 fill:#f6ecff r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+                    icon:Circle 16 
+                    T fs:14 Medium #4d0e87 "LABEL"
+                    icon:Circle 16 
+                Table cell [INSTANCE] 136×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Chip [INSTANCE] 116×28 fill:#f6ecff r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+                    icon:Circle 16 
+                    T fs:14 Medium #4d0e87 "LABEL"
+                    icon:Circle 16 
+                Table cell [INSTANCE] 136×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Chip [INSTANCE] 116×28 fill:#f6ecff r:1000/1000/1000/1000 AL:H gap:8 pad:4/12/4/12 al:CENTER/CENTER
+                    icon:Circle 16 
+                    T fs:14 Medium #4d0e87 "LABEL"
+                    icon:Circle 16 
+            Frame 2147223827 [FRAME] 82×360 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+              Table cell [INSTANCE] 82×40 fill:#f8f9fb AL:H gap:8 pad:8/12/8/12 al:MIN/CENTER
+                T fs:14 Medium #6b7280 "Build"
+                icon:chevron-selector-vertical 16 
+              Column [FRAME] 82×320 fill:#ffffff AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+                Table cell [INSTANCE] 82×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "80"
+                Table cell [INSTANCE] 82×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "70"
+                Table cell [INSTANCE] 82×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "80"
+                Table cell [INSTANCE] 82×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "90"
+                Table cell [INSTANCE] 82×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "90"
+            Frame 2147223828 [FRAME] 165×360 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+              Table cell [INSTANCE] 165×40 fill:#f8f9fb AL:H gap:8 pad:8/12/8/12 al:MIN/CENTER
+                T fs:14 Medium #6b7280 "MD5"
+                icon:chevron-selector-vertical 16 
+              Column [FRAME] 165×320 fill:#ffffff AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "dcc0006bc...76ae"
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "dcc0006bc...76ae"
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "dcc0006bc...76ae"
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "dcc0006bc...76ae"
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×18 AL:V gap:4 pad:0/0/0/0 al:MIN/MIN
+                    T fs:14 Medium #2b2d42 "dcc0006bc...76ae"
+            Frame 2147223829 [FRAME] 113×360 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+              Table cell [INSTANCE] 113×40 fill:#f8f9fb AL:H gap:8 pad:8/12/8/12 al:MIN/CENTER
+                T fs:14 Medium #6b7280 "Uploaded"
+                icon:chevron-selector-vertical 16 
+              Column [FRAME] 113×320 fill:#ffffff AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+                Table cell [INSTANCE] 113×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "Mar 11, 2026"
+                    T fs:12 Medium #6b7280 "04:01 PM"
+                Table cell [INSTANCE] 113×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "Mar 11, 2026"
+                    T fs:12 Medium #6b7280 "04:01 PM"
+                Table cell [INSTANCE] 113×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "Mar 11, 2026"
+                    T fs:12 Medium #6b7280 "04:01 PM"
+                Table cell [INSTANCE] 113×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "Mar 11, 2026"
+                    T fs:12 Medium #6b7280 "04:01 PM"
+                Table cell [INSTANCE] 113×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Text [FRAME] 216×36 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+                    T fs:14 Medium #2b2d42 "Mar 11, 2026"
+                    T fs:12 Medium #6b7280 "04:01 PM"
+            Frame 2147223830 [FRAME] 165×360 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+              Table cell [INSTANCE] 165×40 fill:#f8f9fb AL:H gap:8 pad:8/12/8/12 al:MIN/CENTER
+                T fs:14 Medium #6b7280 "Label"
+                icon:chevron-selector-vertical 16 
+              Column [FRAME] 165×320 fill:#ffffff AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Button [INSTANCE] 111×40 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+                    icon:plus 20 
+                    T fs:16 Medium #ffffff "Button"
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Button [INSTANCE] 111×40 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+                    icon:plus 20 
+                    T fs:16 Medium #ffffff "Button"
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Button [INSTANCE] 111×40 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+                    icon:plus 20 
+                    T fs:16 Medium #ffffff "Button"
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Button [INSTANCE] 111×40 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+                    icon:plus 20 
+                    T fs:16 Medium #ffffff "Button"
+                Table cell [INSTANCE] 165×64 AL:H gap:8 pad:12/12/12/12 al:MIN/CENTER stroke:#e5e7eb/1
+                  Button [INSTANCE] 111×40 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+                    icon:plus 20 
+                    T fs:16 Medium #ffffff "Button"
+          Pagination [INSTANCE] 980×72 AL:H gap:0 pad:16/24/16/24 al:SPACE_EVENLY/CENTER stroke:#e5e7eb/1
+            Pagination numbers [FRAME] 312×40 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+              icon:Frame 1171276683 40 
+              Frame 1171276685 [FRAME] 216×40 AL:H gap:4 pad:0/0/0/0 al:MIN/CENTER
+                icon:_Pagination number base 40 #f6ecff
+                icon:_Pagination number base 40 
+                icon:_Pagination number base 40 
+                icon:_Pagination number base 40 
+                icon:_Pagination number base 40 
+              icon:Frame 1171276684 40 
+            T fs:16 Medium #2b2d42 "Página 1 de 10"
+
+===== SCREEN: Landscape - Screen brightness =====
+Landscape - Screen brightness [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,14927
+  Frame 1171276228 [FRAME] 136×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+    Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @0,0
+    Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @24,0
+    Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @48,0
+    Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @72,0
+    Rectangle 18816 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @96,0
+    Rectangle 18817 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @120,0
+  Frame 2147224020 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 2147224019 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 2147224018 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Frame 2147224021 [FRAME] 470×120 fill:#ffffff r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN stroke:#e5e7eb/1
+    Frame 2147224017 [FRAME] 438×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+      Frame 2147224018 [FRAME] 175×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+        T fs:20 Medium #2b2d42 "Screen brightness"
+    Frame 2147224025 [FRAME] 438×40 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+      icon:Circle 32 
+      Frame 2147224021 [FRAME] 390×40 fill:#f8f9fb r:1000/1000/1000/1000 @48,0
+        Rectangle 18818 [ROUNDED_RECTANGLE] 117×40 fill:GRAD(#7f2ccb>#ab5df0) r:1000/0/0/1000 @0,0
+
+===== SCREEN: Landscape - Sound =====
+Landscape - Sound [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,15807
+  Frame 1171276228 [FRAME] 136×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+    Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @0,0
+    Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @24,0
+    Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @48,0
+    Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @72,0
+    Rectangle 18816 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @96,0
+    Rectangle 18817 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @120,0
+  Frame 2147224021 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 2147224020 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 2147224019 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Frame 2147224018 [FRAME] 470×120 fill:#ffffff r:16/16/16/16 AL:V gap:24 pad:16/16/16/16 al:MIN/MIN stroke:#e5e7eb/1
+    Frame 2147224017 [FRAME] 438×24 AL:H gap:12 pad:0/0/0/0 al:MIN/CENTER
+      Frame 2147224018 [FRAME] 72×24 AL:V gap:0 pad:0/0/0/0 al:CENTER/MIN
+        T fs:20 Medium #2b2d42 "Volume"
+    Frame 2147224024 [FRAME] 438×40 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+      icon:Circle 32 
+      Frame 2147224021 [FRAME] 390×40 fill:#f8f9fb r:1000/1000/1000/1000 @48,0
+        Rectangle 18818 [ROUNDED_RECTANGLE] 117×40 fill:GRAD(#7f2ccb>#ab5df0) r:1000/0/0/1000 @0,0
+
+===== SCREEN: Landscape - Hidden clock =====
+Landscape - Hidden clock [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,16687
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×96 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+
+===== SCREEN: Landscape - Small clock =====
+Landscape - Small clock [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,17567
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×140 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 329×24 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:20 Semi Bold #ffffff "10:00 AM"
+      Frame 2147224062 [FRAME] 220×24 AL:H gap:10 pad:0/0/2/0 al:CENTER/CENTER
+        T fs:18 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+
+===== SCREEN: Landscape - Medium clock =====
+Landscape - Medium clock [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,18447
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      Frame 2147224061 [FRAME] 293×31 AL:H gap:10 pad:0/0/2/0 al:CENTER/CENTER
+        T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+
+===== SCREEN: Landscape - Large clock =====
+Landscape - Large clock [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,19327
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 692×183 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/20/20/20 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 652×67 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:56 Semi Bold #ffffff "10:00 AM"
+      Frame 2147224063 [FRAME] 383×44 AL:V gap:10 pad:0/0/4/0 al:MIN/MIN
+        Frame 2147224061 [FRAME] 383×40 AL:H gap:10 pad:0/0/2/0 al:CENTER/CENTER
+          T fs:32 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+
+===== SCREEN: Landscape - Read receipt =====
+Landscape - Read receipt [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,20207
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  btn read confirmation [FRAME] 188×85 fill:#4cbb17 r:12/12/12/12 AL:V gap:16 pad:16/16/16/16 al:CENTER/MIN stroke:/1
+    Frame 2147223991 [FRAME] 156×53 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+      Frame 1171276207 [FRAME] 53×53 AL:H gap:13 pad:0/0/0/0 al:CENTER/CENTER
+        icon:touch_app 36 
+      Frame 2147223992 [FRAME] 87×43 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+        Frame 2147223955 [FRAME] 87×43 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+          T fs:36 Semi Bold #ffffff "Read"
+
+===== SCREEN: Landscape - Confirmed =====
+Landscape - Confirmed [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,21087
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  btn confirmed [FRAME] 236×89 fill:#ffffff r:12/12/12/12 AL:V gap:16 pad:16/16/16/16 al:CENTER/MIN stroke:#f3f4f6/1
+    Frame 2147223991 [FRAME] 204×57 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+      Frame 1171276207 [FRAME] 57×57 AL:H gap:14 pad:0/0/0/0 al:CENTER/CENTER
+        icon:check_circle 40 
+      Frame 2147223992 [FRAME] 131×29 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+        Frame 2147223955 [FRAME] 131×29 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+          T fs:24 Semi Bold #2b2d42 "Confirmed!"
+
+===== SCREEN: Landscape - Morning =====
+Landscape - Morning [FRAME] 1280×800 fill:#f7efff @80,21967
+  Frame 2147224002 [FRAME] 911×737 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+    Frame 2147224006 [FRAME] 406×68 AL:H gap:14 pad:0/0/0/0 al:MIN/CENTER
+      Frame 2147223996 [FRAME] 68×68 AL:H gap:16 pad:0/0/0/0 al:CENTER/CENTER
+        wb_twilight [INSTANCE] 46×46 @11,12
+      Frame 2147223995 [FRAME] 324×58 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+        T fs:48 Semi Bold #7f2ccb "Good morning"
+    Frame 2147224059 [FRAME] 911×645 AL:V gap:20 pad:0/0/0/0 al:MIN/MIN
+      Frame 2147224003 [FRAME] 911×438 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+        Frame 2147223963 [FRAME] 911×106 fill:#7f2ccb r:21/21/0/0 AL:V gap:0 pad:25/31/25/31 al:CENTER/CENTER stroke:#f3f4f6/1.2724484205245972
+          Frame 2147224003 [FRAME] 850×55 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER
+            Ellipse 6 [ELLIPSE] 32×32 fill:#ab5df0 @0,11
+            T fs:45.80813980102539 Semi Bold #ffffff "Monday"
+            Ellipse 5 [ELLIPSE] 32×32 fill:#ab5df0 @818,11
+        Frame 2147223993 [FRAME] 911×332 fill:#ffffff r:0/0/21/21 AL:H gap:0 pad:29/58/29/58 al:CENTER/CENTER
+          Frame 2147224001 [FRAME] 876×274 AL:H gap:4 pad:0/0/0/0 al:MAX/MAX
+            T fs:274 Semi Bold #2b2d42 "08:45 "
+            T fs:64 Semi Bold #2b2d42 "AM"
+      Frame 2147223998 [FRAME] 911×187 AL:H gap:28 pad:0/0/0/0 al:SPACE_EVENLY/MIN
+        Frame 2147223998 [FRAME] 365×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Month"
+          T fs:72 Semi Bold #7f2ccb "February"
+        Frame 2147223995 [FRAME] 241×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Day"
+          T fs:72 Semi Bold #7f2ccb "11"
+        Frame 2147223999 [FRAME] 242×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Year"
+          T fs:72 Semi Bold #7f2ccb "2026"
+  Frame 2147224001 [FRAME] 598×48 fill:#424242@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Rectangle 18820 [ROUNDED_RECTANGLE] 92×8 fill:#474747 r:1000/1000/1000/1000 @253,20
+
+===== SCREEN: Landscape - Afternoon =====
+Landscape - Afternoon [FRAME] 1280×800 fill:#f7efff @80,22847
+  Frame 2147224002 [FRAME] 911×737 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+    Frame 2147224006 [FRAME] 441×68 AL:H gap:14 pad:0/0/0/0 al:MIN/CENTER
+      Frame 1171276207 [FRAME] 68×68 AL:H gap:16 pad:0/0/0/0 al:CENTER/CENTER
+        wb_sunny [INSTANCE] 46×46 @11,12
+      Frame 2147223995 [FRAME] 359×58 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+        T fs:48 Semi Bold #7f2ccb "Good afternoon"
+    Frame 2147224059 [FRAME] 911×645 AL:V gap:20 pad:0/0/0/0 al:MIN/MIN
+      Frame 2147224003 [FRAME] 911×438 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+        Frame 2147223963 [FRAME] 911×106 fill:#7f2ccb r:21/21/0/0 AL:V gap:0 pad:25/31/25/31 al:CENTER/CENTER stroke:#f3f4f6/1.2724484205245972
+          Frame 2147224003 [FRAME] 850×55 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER
+            Ellipse 6 [ELLIPSE] 32×32 fill:#ab5df0 @0,11
+            T fs:45.80813980102539 Semi Bold #ffffff "Monday"
+            Ellipse 5 [ELLIPSE] 32×32 fill:#ab5df0 @818,11
+        Frame 2147223993 [FRAME] 911×332 fill:#ffffff r:0/0/21/21 AL:H gap:0 pad:29/58/29/58 al:CENTER/CENTER
+          Frame 2147224001 [FRAME] 833×274 AL:H gap:8 pad:0/0/0/0 al:MAX/MAX
+            T fs:274 Semi Bold #2b2d42 "01:30 "
+            T fs:64 Semi Bold #2b2d42 "PM"
+      Frame 2147223998 [FRAME] 911×187 AL:H gap:28 pad:0/0/0/0 al:SPACE_EVENLY/MIN
+        Frame 2147223998 [FRAME] 365×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Month"
+          T fs:72 Semi Bold #7f2ccb "February"
+        Frame 2147223995 [FRAME] 241×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Day"
+          T fs:72 Semi Bold #7f2ccb "11"
+        Frame 2147223999 [FRAME] 242×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Year"
+          T fs:72 Semi Bold #7f2ccb "2026"
+
+===== SCREEN: Landscape - Evening =====
+Landscape - Evening [FRAME] 1280×800 fill:#f7efff @80,23727
+  Frame 2147224001 [FRAME] 911×737 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+    Frame 2147224006 [FRAME] 398×68 AL:H gap:14 pad:0/0/0/0 al:MIN/CENTER
+      Frame 2147223996 [FRAME] 68×68 AL:H gap:16 pad:0/0/0/0 al:CENTER/CENTER
+        wb_twilight [INSTANCE] 46×46 @11,12
+      Frame 2147223995 [FRAME] 316×58 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+        T fs:48 Semi Bold #7f2ccb "Good evening"
+    Frame 2147224059 [FRAME] 911×645 AL:V gap:20 pad:0/0/0/0 al:MIN/MIN
+      Frame 2147224003 [FRAME] 911×438 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+        Frame 2147223963 [FRAME] 911×106 fill:#7f2ccb r:21/21/0/0 AL:V gap:0 pad:25/31/25/31 al:CENTER/CENTER stroke:#f3f4f6/1.2724484205245972
+          Frame 2147224003 [FRAME] 850×55 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER
+            Ellipse 6 [ELLIPSE] 32×32 fill:#ab5df0 @0,11
+            T fs:45.80813980102539 Semi Bold #ffffff "Monday"
+            Ellipse 5 [ELLIPSE] 32×32 fill:#ab5df0 @818,11
+        Frame 2147223993 [FRAME] 911×332 fill:#ffffff r:0/0/21/21 AL:H gap:0 pad:29/58/29/58 al:CENTER/CENTER
+          Frame 2147224001 [FRAME] 872×274 AL:H gap:8 pad:0/0/0/0 al:MAX/MAX
+            T fs:274 Semi Bold #2b2d42 "06:20 "
+            T fs:64 Semi Bold #2b2d42 "PM"
+      Frame 2147223998 [FRAME] 911×187 AL:H gap:28 pad:0/0/0/0 al:SPACE_EVENLY/MIN
+        Frame 2147223998 [FRAME] 365×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Month"
+          T fs:72 Semi Bold #7f2ccb "February"
+        Frame 2147223995 [FRAME] 241×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Day"
+          T fs:72 Semi Bold #7f2ccb "11"
+        Frame 2147223999 [FRAME] 242×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Year"
+          T fs:72 Semi Bold #7f2ccb "2026"
+
+===== SCREEN: Landscape - At night =====
+Landscape - At night [FRAME] 1280×800 fill:#f7efff @80,24607
+  Frame 2147224002 [FRAME] 911×737 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+    Frame 2147224006 [FRAME] 334×68 AL:H gap:14 pad:0/0/0/0 al:MIN/CENTER
+      Frame 1171276207 [FRAME] 68×68 AL:H gap:16 pad:0/0/0/0 al:CENTER/CENTER
+        icon:nightlight_round 40 
+      Frame 2147223995 [FRAME] 252×58 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+        T fs:48 Semi Bold #7f2ccb "Good night"
+    Frame 2147224059 [FRAME] 911×645 AL:V gap:20 pad:0/0/0/0 al:MIN/MIN
+      Frame 2147224003 [FRAME] 911×438 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+        Frame 2147223963 [FRAME] 911×106 fill:#7f2ccb r:21/21/0/0 AL:V gap:0 pad:25/31/25/31 al:CENTER/CENTER stroke:#f3f4f6/1.2724484205245972
+          Frame 2147224003 [FRAME] 850×55 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER
+            Ellipse 6 [ELLIPSE] 32×32 fill:#ab5df0 @0,11
+            T fs:45.80813980102539 Semi Bold #ffffff "Monday"
+            Ellipse 5 [ELLIPSE] 32×32 fill:#ab5df0 @818,11
+        Frame 2147223993 [FRAME] 911×332 fill:#ffffff r:0/0/21/21 AL:H gap:0 pad:29/58/29/58 al:CENTER/CENTER
+          Frame 2147224001 [FRAME] 775×274 AL:H gap:8 pad:0/0/0/0 al:MAX/MAX
+            T fs:274 Semi Bold #2b2d42 "11:20 "
+            T fs:64 Semi Bold #2b2d42 "PM"
+      Frame 2147223998 [FRAME] 911×187 AL:H gap:28 pad:0/0/0/0 al:SPACE_EVENLY/MIN
+        Frame 2147223998 [FRAME] 365×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Month"
+          T fs:72 Semi Bold #7f2ccb "February"
+        Frame 2147223995 [FRAME] 241×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Day"
+          T fs:72 Semi Bold #7f2ccb "11"
+        Frame 2147223999 [FRAME] 242×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Year"
+          T fs:72 Semi Bold #7f2ccb "2026"
+
+===== SCREEN: We’re downloading the latest update. =====
+We’re downloading the latest update. [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,25487
+  Frame 1171276228 [FRAME] 136×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+    Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @0,0
+    Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @24,0
+    Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @48,0
+    Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @72,0
+    Rectangle 18816 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @96,0
+    Rectangle 18817 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @120,0
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:100/100/100/100 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:100/100/100/100 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 1171276205 [FRAME] 334×63 fill:#292929@0.70 r:0/0/16/16 AL:V gap:12 pad:16/15/16/15 al:MAX/CENTER
+    Frame 2147223893 [FRAME] 300×31 AL:H gap:88 pad:0/0/0/0 al:MIN/MIN
+      Frame 1171276203 [FRAME] 300×31 AL:H gap:8 pad:0/0/0/0 al:MIN/MAX
+        T fs:36 Semi Bold #ffffff "10:00am"
+        T fs:20 Medium #ffffff "Jun, 15, 2026"
+  Frame 1171276106 [FRAME] 216×59 fill:#292929@0.80 r:849/849/849/849 AL:H gap:12 pad:8/20/8/20 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "Antony"
+  Background [INSTANCE] 1280×800 fill:#424242@0.70 AL:H gap:10 pad:341/137/341/137 al:CENTER/CENTER
+    Frame 3 [FRAME] 1166×186 AL:V gap:12 pad:0/0/0/0 al:MIN/CENTER
+      Loading - Animação [FRAME] 150×150 @508,0
+        2 [FRAME] 150×150 @0,0
+          Ellipse 1 [ELLIPSE] 22×22 fill:#7f2ccb @65,128
+      T fs:20 Medium #ffffff "Loading..."
+  Popups [FRAME] 600×350 fill:#ffffff r:16/16/16/16 AL:V gap:8 pad:32/32/32/32 al:MIN/CENTER
+    Frame 2147223385 [FRAME] 536×286 AL:V gap:24 pad:0/0/0/0 al:CENTER/CENTER
+      Frame 2147223879 [FRAME] 536×121 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+        Logo [INSTANCE] 175×48 AL:H gap:5 pad:0/0/0/0 al:MIN/MIN
+          Group 1000005889 [FRAME] 226×226 @0,0
+          T fs:145 Bold #ab5df0 "Memory\nBoard"
+        Frame 2147223374 [FRAME] 536×49 AL:V gap:8 pad:0/0/0/0 al:CENTER/MIN
+          T fs:20 Medium #2b2d42 "We’re downloading the latest update."
+          T fs:14 Regular #6b7280 "This may take a moment."
+      Rolling@1x-1.0s-200px-200px 1 [ROUNDED_RECTANGLE] 84×84 fill:IMG:0c1f2b287bd685b7e0e578272ae718b3e2f3d36f @226,145
+      Alerta [INSTANCE] 536×33 fill:#fff3d4 r:1000/1000/1000/1000 AL:H gap:8 pad:8/12/8/12 al:MIN/CENTER
+        icon:info-circle 16 
+        T fs:14 Regular #9e450e "This board has 2 expired posts"
+        icon:arrow-narrow-up-right 16 
+
+===== SCREEN: Board updated successfully =====
+Board updated successfully [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,26367
+  Frame 1171276228 [FRAME] 136×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+    Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @0,0
+    Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @24,0
+    Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @48,0
+    Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @72,0
+    Rectangle 18816 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @96,0
+    Rectangle 18817 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @120,0
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:100/100/100/100 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:100/100/100/100 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 1171276205 [FRAME] 334×63 fill:#292929@0.70 r:0/0/16/16 AL:V gap:12 pad:16/15/16/15 al:MAX/CENTER
+    Frame 2147223893 [FRAME] 300×31 AL:H gap:88 pad:0/0/0/0 al:MIN/MIN
+      Frame 1171276203 [FRAME] 300×31 AL:H gap:8 pad:0/0/0/0 al:MIN/MAX
+        T fs:36 Semi Bold #ffffff "10:00am"
+        T fs:20 Medium #ffffff "Jun, 15, 2026"
+  Frame 1171276106 [FRAME] 216×59 fill:#292929@0.80 r:849/849/849/849 AL:H gap:12 pad:8/20/8/20 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "Antony"
+  Background [INSTANCE] 1280×800 fill:#424242@0.70 AL:H gap:10 pad:341/137/341/137 al:CENTER/CENTER
+    Frame 3 [FRAME] 1166×186 AL:V gap:12 pad:0/0/0/0 al:MIN/CENTER
+      Loading - Animação [FRAME] 150×150 @508,0
+        2 [FRAME] 150×150 @0,0
+          Ellipse 1 [ELLIPSE] 22×22 fill:#7f2ccb @65,128
+      T fs:20 Medium #ffffff "Loading..."
+  Popups [FRAME] 600×249 fill:#ffffff r:16/16/16/16 AL:V gap:8 pad:32/32/32/32 al:MIN/CENTER
+    Frame 2147223385 [FRAME] 536×185 AL:V gap:24 pad:0/0/0/0 al:MIN/MIN
+      Frame 2147223879 [FRAME] 536×121 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+        Logo [INSTANCE] 175×48 AL:H gap:5 pad:0/0/0/0 al:MIN/MIN
+          Group 1000005889 [FRAME] 226×226 @0,0
+          T fs:145 Bold #ab5df0 "Memory\nBoard"
+        Frame 2147223374 [FRAME] 536×49 AL:V gap:8 pad:0/0/0/0 al:CENTER/MIN
+          T fs:20 Medium #2b2d42 "Board updated successfully"
+          T fs:14 Regular #6b7280 "You’re now using the latest version. This message will close in 60 seconds."
+      Button [INSTANCE] 536×40 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        icon:plus 20 
+        T fs:16 Medium #ffffff "Continue"
+
+===== SCREEN: Wi-fi =====
+Wi-fi [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,27247
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#292929@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Toast Board [FRAME] 324×140 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+    Toasts [FRAME] 324×140 fill:#e5e7eb r:4/4/4/4 AL:V gap:10 pad:12/16/12/16 al:MIN/MIN
+      Frame 1171276181 [FRAME] 292×66 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+        Frame 1171276179 [FRAME] 292×66 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+          icon:Frame 1171276178 32 
+          Frame 2147223892 [FRAME] 244×66 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+            Frame 2147224060 [FRAME] 244×24 AL:H gap:4 pad:0/0/0/0 al:MIN/MIN
+              T fs:18 Medium #2b2d42 "Board offline"
+              icon:x-close 24 
+            T fs:16 Medium #6b7280 "Please connect the board to the internet."
+      Button [INSTANCE] 292×40 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        icon:plus 20 
+        T fs:16 Medium #ffffff "Open Wi-Fi settings"
+
+===== SCREEN: Success =====
+Success [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,28127
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#292929@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Toast Board [INSTANCE] 324×91 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+    Toasts [FRAME] 324×87 fill:#d2f9e7 r:4/4/0/0 AL:V gap:10 pad:12/16/12/16 al:MIN/MIN
+      Frame 1171276180 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+        Frame 1171276179 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+          icon:Frame 1171276178 24 
+          Frame 2147223892 [FRAME] 252×63 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+            Frame 2147224014 [FRAME] 252×17 AL:H gap:4 pad:0/0/0/0 al:MIN/MIN
+              T fs:14 Medium #2b2d42 "Success!"
+            T fs:12 Medium #6b7280 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. "
+    Frame 2147223895 [FRAME] 324×4 fill:#d2f9e7 r:0/0/4/4 AL:V gap:10 pad:0/0/0/0 al:MIN/MIN
+      Toasts [FRAME] 100×4 fill:#088767 r:0/4/4/4 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN
+
+===== SCREEN: Error =====
+Error [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,29007
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#292929@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Toast Board [INSTANCE] 324×91 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+    Toasts [FRAME] 324×87 fill:#fee2e3 r:4/4/0/0 AL:V gap:10 pad:12/16/12/16 al:MIN/MIN
+      Frame 1171276181 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+        Frame 1171276179 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+          icon:Frame 1171276182 24 
+          Frame 2147223892 [FRAME] 252×63 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+            T fs:14 Medium #2b2d42 "Error!"
+            T fs:12 Medium #6b7280 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. "
+    Frame 2147223895 [FRAME] 324×4 fill:#fee2e3 r:0/0/4/4 AL:V gap:10 pad:0/0/0/0 al:MIN/MIN
+      Toasts [FRAME] 100×4 fill:#de242a r:0/4/4/4 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN
+
+===== SCREEN: Alert =====
+Alert [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,29887
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#292929@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Toast Board [INSTANCE] 324×91 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+    Toasts [FRAME] 324×87 fill:#fff3d4 r:4/4/0/0 AL:V gap:10 pad:12/16/12/16 al:MIN/MIN
+      Frame 1171276181 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+        Frame 1171276179 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+          icon:Frame 1171276178 24 
+          Frame 2147223892 [FRAME] 252×63 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+            T fs:14 Medium #2b2d42 "Alert!"
+            T fs:12 Medium #6b7280 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. "
+    Frame 2147223895 [FRAME] 324×4 fill:#fff3d4 r:0/0/4/4 AL:V gap:10 pad:0/0/0/0 al:MIN/MIN
+      Toasts [FRAME] 100×4 fill:#f07406 r:0/4/4/4 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN
+
+===== SCREEN: Info =====
+Info [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,30767
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#292929@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Toast Board [INSTANCE] 324×91 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+    Toasts [FRAME] 324×87 fill:#dbeafe r:4/4/0/0 AL:V gap:10 pad:12/16/12/16 al:MIN/MIN
+      Frame 1171276181 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+        Frame 1171276179 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+          icon:Frame 2147223893 24 
+          Frame 2147223892 [FRAME] 252×63 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+            T fs:14 Medium #2b2d42 "Info!"
+            T fs:12 Medium #6b7280 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. "
+    Frame 2147223895 [FRAME] 324×4 fill:#dbeafe r:0/0/4/4 AL:V gap:10 pad:0/0/0/0 al:MIN/MIN
+      Toasts [FRAME] 100×4 fill:#2563eb r:0/4/4/4 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN
+
+===== SCREEN: Landscape - Morning (Sleepy mode) =====
+Landscape - Morning (Sleepy mode) [FRAME] 1280×800 fill:#f7efff @80,31647
+  Frame 2147224001 [FRAME] 911×737 AL:V gap:24 pad:0/0/0/0 al:MIN/CENTER
+    Frame 2147224006 [FRAME] 406×68 AL:H gap:14 pad:0/0/0/0 al:MIN/CENTER
+      Frame 2147223996 [FRAME] 68×68 AL:H gap:16 pad:0/0/0/0 al:CENTER/CENTER
+        wb_twilight [INSTANCE] 46×46 @11,12
+      Frame 2147223995 [FRAME] 324×58 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+        T fs:48 Semi Bold #7f2ccb "Good morning"
+    Frame 2147224059 [FRAME] 911×645 AL:V gap:20 pad:0/0/0/0 al:MIN/MIN
+      Frame 2147224003 [FRAME] 911×438 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+        Frame 2147223963 [FRAME] 911×106 fill:#7f2ccb r:21/21/0/0 AL:V gap:0 pad:25/31/25/31 al:CENTER/CENTER stroke:#f3f4f6/1.2724484205245972
+          Frame 2147224003 [FRAME] 850×55 AL:H gap:0 pad:0/0/0/0 al:CENTER/CENTER
+            Ellipse 6 [ELLIPSE] 32×32 fill:#ab5df0 @0,11
+            T fs:45.80813980102539 Semi Bold #ffffff "Monday"
+            Ellipse 5 [ELLIPSE] 32×32 fill:#ab5df0 @818,11
+        Frame 2147223993 [FRAME] 911×332 fill:#ffffff r:0/0/21/21 AL:H gap:0 pad:29/58/29/58 al:CENTER/CENTER
+          Frame 2147224001 [FRAME] 876×274 AL:H gap:4 pad:0/0/0/0 al:MAX/MAX
+            T fs:274 Semi Bold #2b2d42 "08:45 "
+            T fs:64 Semi Bold #2b2d42 "AM"
+      Frame 2147223998 [FRAME] 911×187 AL:H gap:28 pad:0/0/0/0 al:SPACE_EVENLY/MIN
+        Frame 2147223998 [FRAME] 365×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Month"
+          T fs:72 Semi Bold #7f2ccb "February"
+        Frame 2147223995 [FRAME] 241×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Day"
+          T fs:72 Semi Bold #7f2ccb "11"
+        Frame 2147223999 [FRAME] 242×187 fill:#ffffff r:21/21/21/21 AL:V gap:21 pad:26/31/26/31 al:CENTER/CENTER stroke:#f3f4f6/1.2812937498092651
+          T fs:24 Semi Bold #7f2ccb "Year"
+          T fs:72 Semi Bold #7f2ccb "2026"
+  Frame 2147223963 [FRAME] 256×89 fill:#ffffff r:12/12/12/12 AL:V gap:16 pad:16/16/16/16 al:CENTER/MIN stroke:#f3f4f6/1
+    Frame 2147223991 [FRAME] 224×57 AL:H gap:16 pad:0/0/0/0 al:MIN/CENTER
+      Frame 1171276207 [FRAME] 57×57 AL:H gap:14 pad:0/0/0/0 al:CENTER/CENTER
+        icon:clock-snooze 40 
+      Frame 2147223992 [FRAME] 151×57 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+        Frame 2147223955 [FRAME] 151×29 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+          T fs:24 Semi Bold #2b2d42 "Sleepy mode"
+        Frame 2147223956 [FRAME] 143×24 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+          T fs:20 Medium #4b5563 "Tap the screen"
+
+===== SCREEN: Landscape - Sleepy Mode =====
+Landscape - Sleepy Mode [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,32527
+  Frame 1171276228 [FRAME] 136×16 AL:H gap:8 pad:0/0/0/0 al:MIN/MIN
+    Rectangle 18812 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @0,0
+    Rectangle 18813 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @24,0
+    Rectangle 18814 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @48,0
+    Rectangle 18815 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @72,0
+    Rectangle 18816 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @96,0
+    Rectangle 18817 [ROUNDED_RECTANGLE] 16×16 fill:#ffffff r:100/100/100/100 @120,0
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:100/100/100/100 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:100/100/100/100 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 1171276205 [FRAME] 334×63 fill:#292929@0.70 r:0/0/16/16 AL:V gap:12 pad:16/15/16/15 al:MAX/CENTER
+    Frame 2147223893 [FRAME] 300×31 AL:H gap:88 pad:0/0/0/0 al:MIN/MIN
+      Frame 1171276203 [FRAME] 300×31 AL:H gap:8 pad:0/0/0/0 al:MIN/MAX
+        T fs:36 Semi Bold #ffffff "10:00am"
+        T fs:20 Medium #ffffff "Jun, 15, 2026"
+  Frame 1171276106 [FRAME] 216×59 fill:#292929@0.80 r:849/849/849/849 AL:H gap:12 pad:8/20/8/20 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "Antony"
+  Background [INSTANCE] 1280×800 fill:#000000 AL:H gap:10 pad:341/137/341/137 al:CENTER/CENTER
+    Frame 3 [FRAME] 1166×186 AL:V gap:12 pad:0/0/0/0 al:MIN/CENTER
+      Loading - Animação [FRAME] 150×150 @508,0
+        2 [FRAME] 150×150 @0,0
+          Ellipse 1 [ELLIPSE] 22×22 fill:#7f2ccb @65,128
+      T fs:20 Medium #ffffff "Loading..."
+  Frame 2147224022 [FRAME] 942×145 AL:V gap:16 pad:0/0/0/0 al:MIN/CENTER
+    T fs:72 Semi Bold #4b5563 "Sleepy Mode activated."
+    T fs:36 Semi Bold #4b5563 "The board will be activated when you touch the screen."
+
+===== SCREEN: Info - Sleepy Mode is on =====
+Info - Sleepy Mode is on [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,33407
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#292929@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Toast Board [FRAME] 324×144 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+    Toasts [FRAME] 324×144 fill:#e5e7eb r:4/4/4/4 AL:V gap:10 pad:12/16/12/16 al:MIN/MIN
+      Frame 1171276181 [FRAME] 292×70 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+        Frame 1171276179 [FRAME] 292×70 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+          icon:Frame 1171276178 32 
+          Frame 2147223892 [FRAME] 244×70 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+            Frame 2147224060 [FRAME] 244×24 AL:H gap:4 pad:0/0/0/0 al:MIN/MIN
+              T fs:18 Medium #2b2d42 "Sleep mode is on"
+              icon:x-close 24 
+            T fs:12 Medium #6b7280 "If no interaction happens for 1 minute, the screen will go to sleep. You can turn off Sleep Mode anytime in Settings."
+      Button [INSTANCE] 292×40 fill:#7f2ccb r:1000/1000/1000/1000 AL:H gap:8 pad:8/16/8/16 al:CENTER/CENTER
+        icon:plus 20 
+        T fs:16 Medium #ffffff "Open settings"
+
+===== SCREEN: Info - Sleepy Mode - Finished =====
+Info - Sleepy Mode - Finished [FRAME] 1280×800 fill:#f8f9fa,IMG:1da390b390b92bfe1a3513cdaad74445199aa9b0 @80,34287
+  Frame 1171276102 [FRAME] 146×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Peter"
+  Frame 1171276103 [FRAME] 176×59 fill:#292929@0.80 r:12/12/12/12 AL:H gap:21 pad:8/20/8/20 al:SPACE_EVENLY/CENTER
+    T fs:36 Semi Bold #ffffff "Mariah"
+  Frame 2147223965 [FRAME] 598×159 fill:#292929@0.70 r:0/0/16/16 AL:V gap:20 pad:20/15/20/15 al:MAX/CENTER
+    Frame 2147223892 [FRAME] 272×56 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+      Circle [FRAME] 56×56 fill:#ffffff r:1167/1167/1167/1167 AL:H gap:12 pad:0/0/0/0 al:CENTER/CENTER
+        icon:settings 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        Frame 2147224023 [FRAME] 100×100 @-22,-22
+        icon:wifi 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:brightness_medium 28 
+      Circle [FRAME] 56×56 fill:#ffffff r:1000/1000/1000/1000 AL:H gap:10 pad:0/0/0/0 al:CENTER/CENTER
+        icon:volume_up 28 
+    Frame 2147223893 [FRAME] 474×43 AL:H gap:16 pad:0/0/0/0 al:MIN/MAX
+      T fs:36 Semi Bold #ffffff "10:00 AM"
+      T fs:24 Semi Bold #ffffff "Monday February 9 2026"
+  Frame 1171276106 [FRAME] 389×112 fill:#292929@0.80 r:12/12/12/12 AL:H gap:12 pad:24/24/24/24 al:CENTER/CENTER
+    T fs:36 Semi Bold #ffffff "From"
+    T fs:48 Semi Bold #ffffff "Antony"
+  Toast Board [INSTANCE] 324×77 AL:V gap:0 pad:0/0/0/0 al:MIN/MIN
+    Toasts [FRAME] 324×87 fill:#dbeafe r:4/4/0/0 AL:V gap:10 pad:12/16/12/16 al:MIN/MIN
+      Frame 1171276181 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+        Frame 1171276179 [FRAME] 292×63 AL:H gap:16 pad:0/0/0/0 al:MIN/MIN
+          icon:Frame 2147223893 24 
+          Frame 2147223892 [FRAME] 252×63 AL:V gap:4 pad:0/0/0/0 al:CENTER/MIN
+            T fs:14 Medium #2b2d42 "Info!"
+            T fs:12 Medium #6b7280 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. "
+    Frame 2147223895 [FRAME] 324×4 fill:#dbeafe r:0/0/4/4 AL:V gap:10 pad:0/0/0/0 al:MIN/MIN
+      Toasts [FRAME] 100×4 fill:#2563eb r:0/4/4/4 AL:V gap:10 pad:16/16/16/16 al:MIN/MIN
