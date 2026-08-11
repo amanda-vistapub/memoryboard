@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet" />
+<style>
+  body { margin:0; background:#1e1e1e; }
+  a { color:#ab5df0; } a:hover { color:#c68cff; }
+  /* Splash "Efeito": mark alone → wordmark unfolds, blobs drift in */
+  @keyframes mbLogoReveal {
+    0%, 12%   { width: 167px; }
+    38%, 88%  { width: 613px; }
+    100%      { width: 167px; }
+  }
+  @keyframes mbBlobIn {
+    0%, 10%   { opacity: 0; }
+    45%, 88%  { opacity: .15; }
+    100%      { opacity: 0; }
+  }
+</style>
+</helmet>
+
+<div style="padding:80px;background:#1e1e1e;font-family:Inter,sans-serif;display:flex;flex-direction:column;gap:96px;width:max-content">
+
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div style="font-size:56px;font-weight:600;color:#f3f4f6;letter-spacing:-0.02em">Memory Board — Loved One</div>
+    <div style="font-size:24px;font-weight:400;color:#9ca3af">Current Board · all board-device flows, 1280 × 800</div>
+  </div>
+
+  <!-- ============ FLOW 1 · SETUP ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">1 · Setup &amp; connection</div><div style="font-size:20px;color:#6b7280">Splash → Wi-Fi → Date &amp; time → Download → Connect → Success</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px">
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Splash</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fffaf9;display:flex;align-items:center;justify-content:center">
+          <div style="position:absolute;left:-436px;top:-361px;width:944.727px;height:971.565px;overflow:hidden;animation:mbBlobIn 6s cubic-bezier(.42,0,.58,1) infinite">
+            <img src="assets/blob-yellow.svg" alt="" style="position:absolute;left:0;top:0;width:758px;height:608px;transform:matrix(-0.612,0.791,-0.791,-0.612,944.727,372.073);transform-origin:0 0" />
+          </div>
+          <div style="position:absolute;left:722px;top:227px;width:900.881px;height:958.446px;overflow:hidden;animation:mbBlobIn 6s cubic-bezier(.42,0,.58,1) infinite">
+            <img src="assets/blob-purple.svg" alt="" style="position:absolute;left:0;top:0;width:758px;height:608px;transform:matrix(-0.489,0.872,-0.872,-0.489,900.881,297.124);transform-origin:0 0" />
+          </div>
+          <div style="position:relative;height:171px;overflow:hidden;width:613px;animation:mbLogoReveal 6s cubic-bezier(.65,0,.35,1) infinite">
+            <img src="assets/logo.svg" alt="MemoryBoard" style="position:absolute;left:0;top:0;width:613px;height:171px;max-width:none" />
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Welcome</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fff">
+          <img src="assets/welcome-1.png" alt="" style="position:absolute;left:0;top:0;width:640px;height:800px;object-fit:cover" />
+          <div style="position:absolute;left:696px;top:243px;width:528px;display:flex;flex-direction:column;gap:40px">
+            <div style="display:flex;flex-direction:column;gap:24px">
+              <div style="font-size:48px;font-weight:600;color:#2b2d42;line-height:1.2">Welcome to MemoryBoard!</div>
+              <div style="font-size:20px;font-weight:500;color:#6b7280;line-height:1.2">Let's get started! Over the next few screens, we will guide you through the process of connecting your board.</div>
+            </div>
+            <div style="height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center;gap:8px">Get started</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Wi-Fi connection</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fff">
+          <div style="position:absolute;left:360px;top:22px;width:560px;display:flex;flex-direction:column;align-items:center;gap:40px">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:16px;width:560px">
+              <div style="font-size:48px;font-weight:600;color:#2b2d42;line-height:1.2">Wi-Fi connection</div>
+              <div style="font-size:20px;font-weight:500;color:#6b7280">Choose your network and connect to continue</div>
+            </div>
+            <div style="width:525px;border-radius:10px;overflow:hidden;display:flex;flex-direction:column">
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:16px;background:#fff;border:1px solid #e5e7eb;box-sizing:border-box"><div style="font-size:20px;font-weight:500;color:#2b2d42">WiFi name 2.4G</div><div style="display:flex;gap:16px;color:#2b2d42"><span style="font-family:'Material Symbols Rounded';font-size:24px">lock</span><span style="font-family:'Material Symbols Rounded';font-size:24px">wifi</span></div></div>
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:16px;background:#fff;border:1px solid #e5e7eb;box-sizing:border-box"><div style="font-size:20px;font-weight:500;color:#2b2d42">WiFi name 5G</div><div style="display:flex;gap:16px;color:#2b2d42"><span style="font-family:'Material Symbols Rounded';font-size:24px">wifi</span></div></div>
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:16px;background:#fff;border:1px solid #e5e7eb;box-sizing:border-box"><div style="font-size:20px;font-weight:500;color:#2b2d42">WiFi name 2.4G</div><div style="display:flex;gap:16px;color:#2b2d42"><span style="font-family:'Material Symbols Rounded';font-size:24px">lock</span><span style="font-family:'Material Symbols Rounded';font-size:24px">wifi</span></div></div>
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:16px;background:#fff;border:1px solid #e5e7eb;box-sizing:border-box"><div style="font-size:20px;font-weight:500;color:#2b2d42">WiFi name 2.4G</div><div style="display:flex;gap:16px;color:#2b2d42"><span style="font-family:'Material Symbols Rounded';font-size:24px">lock</span><span style="font-family:'Material Symbols Rounded';font-size:24px">wifi</span></div></div>
+            </div>
+            <div style="width:525px;box-sizing:border-box;background:#fff;border:1px solid #f3f4f6;border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:20px">
+              <div style="display:flex;align-items:center;gap:12px">
+                <div style="flex:1;display:flex;flex-direction:column;gap:4px;align-items:flex-start">
+                  <div style="font-size:20px;font-weight:500;color:#2b2d42">Network Status</div>
+                  <div style="font-size:16px;color:#6b7280">Check the status of your network and devices</div>
+                </div>
+                <div style="width:48px;height:48px;border-radius:999px;background:#f3f4f6;display:flex;align-items:center;justify-content:center;flex:none"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#2b2d42">arrow_forward</span></div>
+              </div>
+              <div style="position:relative;display:flex;align-items:center;justify-content:space-between;padding:16px 0">
+                <div style="width:77px;display:flex;flex-direction:column;align-items:center;gap:8px">
+                  <div style="width:42px;height:42px;border-radius:8px;background:#f3f4f6;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#6b7280">language</span></div>
+                  <div style="font-size:14px;color:#2b2d42;line-height:1.2">Internet</div>
+                  <div style="height:20px;border-radius:1000px;background:#d2f9e7;display:flex;align-items:center;gap:8px;padding:4px 12px;box-sizing:border-box"><div style="width:8px;height:8px;border-radius:50%;background:#085d4a"></div><div style="font-size:12px;font-weight:500;color:#085d4a;line-height:1.2">Online</div></div>
+                </div>
+                <div style="width:75px;height:1px;background:#d9d9d9"></div>
+                <div style="width:69px;display:flex;flex-direction:column;align-items:center;gap:8px">
+                  <div style="width:42px;height:42px;border-radius:8px;background:#f3f4f6;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#6b7280">router</span></div>
+                  <div style="font-size:14px;color:#2b2d42;line-height:1.2">Router</div>
+                  <div style="height:20px;border-radius:1000px;background:#f3f4f6;display:flex;align-items:center;gap:8px;padding:4px 12px;box-sizing:border-box"><div style="width:8px;height:8px;border-radius:50%;background:#4b5563"></div><div style="font-size:12px;font-weight:500;color:#4b5563;line-height:1.2">Error</div></div>
+                </div>
+                <div style="width:75px;height:1px;background:#d9d9d9"></div>
+                <div style="width:98px;display:flex;flex-direction:column;align-items:center;gap:8px">
+                  <div style="width:42px;height:42px;border-radius:8px;background:#f3f4f6;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#6b7280">tv</span></div>
+                  <div style="font-size:14px;color:#2b2d42;line-height:1.2">Memory Board</div>
+                  <div style="height:20px;border-radius:1000px;background:#fee2e3;display:flex;align-items:center;gap:8px;padding:4px 12px;box-sizing:border-box"><div style="width:8px;height:8px;border-radius:50%;background:#9a1a1e"></div><div style="font-size:12px;font-weight:500;color:#9a1a1e;line-height:1.2">Offline</div></div>
+                </div>
+                <div style="position:absolute;left:127.5px;top:53px;width:20px;height:20px;border-radius:99px;background:#088767;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:12px;color:#fff">check</span></div>
+                <div style="position:absolute;left:324.5px;top:53px;width:20px;height:20px;border-radius:99px;background:#de242a;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:12px;color:#fff">close</span></div>
+              </div>
+            </div>
+          </div>
+          <div style="position:absolute;left:360px;top:682px;width:560px;display:flex;flex-direction:column;align-items:center;gap:32px">
+            <div style="width:560px;height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Connect</div>
+            <div style="display:flex;gap:8px">
+              <div style="width:16px;height:16px;border-radius:100px;background:#7f2ccb"></div>
+              <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+              <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+              <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Modal · Network details</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fff">
+          <div style="position:absolute;inset:0;background:rgba(66,66,66,.7)"></div>
+          <div style="position:absolute;left:142px;top:59px;width:995px;height:682px;box-sizing:border-box;background:#fff;border-radius:23px;padding:46px;display:flex;flex-direction:column;gap:16px">
+            <div style="display:flex;align-items:center;gap:35px;padding-bottom:16px;border-bottom:1px solid #f3f4f6">
+              <div style="display:flex;align-items:center;gap:12px;flex:1">
+                <div style="width:66px;height:66px;border-radius:13px;background:#7f2ccb;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:31px;color:#fff">wifi</span></div>
+                <div style="display:flex;flex-direction:column;gap:4px">
+                  <div style="font-size:24px;font-weight:600;color:#2b2d42">Network details</div>
+                  <div style="display:flex;align-items:center;gap:6px"><div style="width:8px;height:8px;border-radius:99px;background:#9a1a1e"></div><div style="font-size:18px;color:#9a1a1e">Offline</div></div>
+                </div>
+              </div>
+              <div style="width:48px;height:48px;border-radius:999px;border:1px solid #f3f4f6;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#2b2d42">close</span></div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:48px;padding-top:16px">
+              <div style="display:flex;gap:24px">
+                <div style="flex:1;display:flex;flex-direction:column;gap:24px">
+                  <div style="font-size:24px;font-weight:600;color:#2b2d42">Connection</div>
+                  <div style="display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">wifi</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">Network Name (SSID)</div><div style="font-size:18px;color:#2b2d42">Grandma's House</div></div></div>
+                  <div style="display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">lock</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">Security Type</div><div style="font-size:18px;color:#2b2d42">WPA2-Personal1</div></div></div>
+                  <div style="display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">podcasts</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">Frequency</div><div style="font-size:18px;color:#2b2d42">2.4 GHz</div></div></div>
+                  <div style="display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">fast_forward</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">Link Speed</div><div style="font-size:18px;color:#2b2d42">72 Mbps</div></div></div>
+                </div>
+                <div style="flex:1;display:flex;flex-direction:column;gap:24px">
+                  <div style="font-size:24px;font-weight:600;color:#2b2d42">IP address</div>
+                  <div style="display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">location_on</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">IP Address</div><div style="font-size:18px;color:#2b2d42">192.168.1.101</div></div></div>
+                  <div style="display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">polyline</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">Subnet Mask</div><div style="font-size:18px;color:#2b2d42">255.255.255.0</div></div></div>
+                  <div style="display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">router</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">Default Gateway</div><div style="font-size:18px;color:#2b2d42">192.168.1.1</div></div></div>
+                  <div style="display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">dns</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">Secondary DNS</div><div style="font-size:18px;color:#2b2d42">8.8.4.4</div></div></div>
+                </div>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:24px">
+                <div style="font-size:24px;font-weight:600;color:#2b2d42">Device</div>
+                <div style="display:flex;gap:24px">
+                  <div style="flex:1;display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">fingerprint</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">MAC Address</div><div style="font-size:18px;color:#2b2d42">A4:CF:12:88:3E:91</div></div></div>
+                  <div style="flex:1;display:flex;align-items:center;gap:12px"><div style="width:42px;height:42px;border-radius:8px;background:rgba(127,44,203,.1);display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#7f2ccb">desktop_mac</span></div><div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;color:#6b7280">Host Name</div><div style="font-size:18px;color:#2b2d42">MemoryBoard-Local</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Date and time</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fff">
+          <div style="position:absolute;left:360px;top:167px;width:560px;display:flex;flex-direction:column;align-items:center;gap:40px">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:16px;width:560px;text-align:center">
+              <div style="font-size:52px;font-weight:700;color:#2b2d42;line-height:1.2">Date and time</div>
+              <div style="font-size:24px;color:#6b7280;line-height:1.2">Select your region and time zone to set date and time automatically</div>
+            </div>
+            <div style="width:560px;display:flex;flex-direction:column;gap:24px">
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <div style="font-size:14px;font-weight:500;color:#1f2937">Region</div>
+                <div style="height:40px;box-sizing:border-box;border:1px solid #f3f4f6;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 12px"><div style="font-size:16px;color:#6b7280">Americas</div><span style="font-family:'Material Symbols Rounded';font-size:18px;color:#6b7280">expand_more</span></div>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <div style="font-size:14px;font-weight:500;color:#1f2937">Time zone</div>
+                <div style="height:40px;box-sizing:border-box;border:1px solid #f3f4f6;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 12px"><div style="font-size:16px;color:#6b7280">New York - Eastern Stabdard Time (GMT-05:00)</div><span style="font-family:'Material Symbols Rounded';font-size:18px;color:#6b7280">expand_more</span></div>
+              </div>
+            </div>
+            <div style="width:560px;display:flex;flex-direction:column;align-items:center;gap:32px">
+              <div style="width:560px;height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Continue</div>
+              <div style="display:flex;gap:8px">
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#7f2ccb"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Download</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fff">
+          <div style="position:absolute;left:335px;top:58px;width:610px;display:flex;flex-direction:column;align-items:center;gap:40px">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:16px;width:610px;text-align:center">
+              <div style="font-size:52px;font-weight:700;color:#2b2d42;line-height:1.2">Download</div>
+              <div style="font-size:24px;color:#6d758f;line-height:1.2">Download the MemoryBoard app on your phone via the QR Code below</div>
+            </div>
+            <div style="display:flex;gap:120px">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:16px;padding:16px">
+                <div style="position:relative;width:200px;height:200px;background:#fff;overflow:hidden">
+                  <sc-for list="{{ qrPlay }}" as="m" hint-placeholder-count="300">
+                    <div style="position:absolute;width:8px;height:8px;background:#2b2d42;left:{{ m.x }}px;top:{{ m.y }}px"></div>
+                  </sc-for>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:center;gap:4px">
+                  <div style="font-size:20px;font-weight:600;color:#2b2d42">Google Play</div>
+                  <div style="font-size:16px;font-weight:500;color:#6b7280">Disponível para Android</div>
+                </div>
+                <div style="background:#2b2d42;border-radius:8px;padding:12px;display:flex;align-items:center;gap:10px">
+                  <img src="assets/google_play.svg" alt="" style="width:32px;height:32px" />
+                  <div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:12px;font-weight:500;color:#d1d5db">Get it on</div><div style="font-size:16px;font-weight:500;color:#fff">Google Play</div></div>
+                </div>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:16px;padding:16px">
+                <div style="position:relative;width:200px;height:200px;background:#fff;overflow:hidden">
+                  <sc-for list="{{ qrApple }}" as="m" hint-placeholder-count="300">
+                    <div style="position:absolute;width:8px;height:8px;background:#2b2d42;left:{{ m.x }}px;top:{{ m.y }}px"></div>
+                  </sc-for>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:center;gap:4px">
+                  <div style="font-size:20px;font-weight:600;color:#2b2d42">Apple Store</div>
+                  <div style="font-size:16px;font-weight:500;color:#6b7280">Disponível para iPhone e iPad</div>
+                </div>
+                <div style="background:#2b2d42;border-radius:8px;padding:12px;display:flex;align-items:center;gap:10px">
+                  <img src="assets/app_store.svg" alt="" style="width:32px;height:32px" />
+                  <div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:12px;font-weight:500;color:#9ca3af">Get it on</div><div style="font-size:16px;font-weight:500;color:#fff">Apple Store</div></div>
+                </div>
+              </div>
+            </div>
+            <div style="width:610px;display:flex;flex-direction:column;align-items:center;gap:32px">
+              <div style="width:610px;height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Continue</div>
+              <div style="display:flex;gap:8px">
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#7f2ccb"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Connect · pairing code</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fff">
+          <div style="position:absolute;left:360px;top:209px;width:560px;display:flex;flex-direction:column;align-items:center;gap:40px">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:16px;width:560px;text-align:center">
+              <div style="font-size:48px;font-weight:600;color:#2b2d42;line-height:1.2">Connect</div>
+              <div style="font-size:20px;font-weight:500;color:#6b7280">Enter the 5-digit code manually to start using your phone.</div>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+              <div style="font-size:64px;font-weight:600;color:#2b2d42;letter-spacing:0.05em">1 5 5 8 4</div>
+              <div style="font-size:20px;font-weight:500;color:#6b7280">The code will expire in: 00:50</div>
+            </div>
+            <div style="width:560px;display:flex;flex-direction:column;align-items:center;gap:32px">
+              <div style="width:560px;height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Continue</div>
+              <div style="display:flex;gap:8px">
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#f6ecff"></div>
+                <div style="width:16px;height:16px;border-radius:100px;background:#7f2ccb"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Connect · pairing (loading)</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fffaf9">
+          <div style="position:absolute;left:360px;top:233px;width:560px;display:flex;flex-direction:column;align-items:center;gap:40px">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:16px;width:560px;text-align:center">
+              <div style="font-size:48px;font-weight:600;color:#2b2d42;line-height:1.2">Connect</div>
+              <div style="font-size:20px;font-weight:500;color:#6b7280">Enter the 5-digit code manually to start using your phone.</div>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+              <div style="font-size:64px;font-weight:600;color:#2b2d42;letter-spacing:0.05em">1 5 5 8 4</div>
+              <div style="font-size:20px;font-weight:500;color:#6b7280">The code will expire in: 00:50</div>
+            </div>
+            <div style="width:560px;height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Continue</div>
+          </div>
+          <div style="position:absolute;inset:0;background:rgba(66,66,66,.7);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px">
+            <img src="assets/loading-check.png" alt="" style="width:200px;height:200px;object-fit:contain" />
+            <div style="font-size:20px;font-weight:500;color:#fff">Loading...</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Success</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fff">
+          <img src="assets/welcome-2.jpg" alt="" style="position:absolute;left:0;top:0;width:640px;height:800px;object-fit:cover" />
+          <div style="position:absolute;left:696px;top:196px;width:528px;display:flex;flex-direction:column;gap:40px">
+            <div style="display:flex;flex-direction:column;gap:24px">
+              <div style="display:flex;flex-direction:column;gap:4px">
+                <div style="font-size:48px;font-weight:600;color:#2b2d42;line-height:1.2">Success!</div>
+                <div style="font-size:20px;font-weight:500;color:#6d758f">You have successfully set up your Memoryboard.</div>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:20px">
+                <div style="font-size:20px;font-weight:500;color:#2b2d42">What to do next:</div>
+                <div style="display:flex;flex-direction:column;gap:20px">
+                  <div style="font-size:20px;font-weight:500;color:#2b2d42">Post yout first message in the app.</div>
+                  <div style="font-size:20px;font-weight:500;color:#2b2d42">Add to your Care Circle in the app.</div>
+                  <div style="font-size:20px;font-weight:500;color:#2b2d42">Connect another board</div>
+                </div>
+              </div>
+              <div style="font-size:20px;font-weight:300;font-style:italic;color:#6d758f;text-align:center">Your care and effort mean everything.</div>
+            </div>
+            <div style="height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Let’s start!</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Board connected · waiting for messages</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fff">
+          <img src="assets/welcome-3.jpg" alt="" style="position:absolute;left:0;top:0;width:640px;height:800px;object-fit:cover" />
+          <div style="position:absolute;left:0;top:0;width:313px;background:rgba(43,45,66,.7);border-radius:0 0 16px 16px;padding:16px 15px;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:16px">
+            <span style="font-family:'Material Symbols Rounded';font-size:30px;color:#fff">settings</span>
+            <div style="display:flex;align-items:flex-end;gap:8px"><div style="font-size:32px;font-weight:500;color:#fff;line-height:1">10:00am</div><div style="font-size:16px;color:#fff">Jun, 15, 2024</div></div>
+            <span style="font-family:'Material Symbols Rounded';font-size:30px;color:#fff">wifi</span>
+          </div>
+          <div style="position:absolute;left:696px;top:271px;width:528px;display:flex;flex-direction:column;gap:24px">
+            <div style="width:70px;height:70px;border-radius:41px;background:#f9fafb;border:12px solid #eaecf0;box-sizing:border-box;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:28px;color:#2b2d42">phone_iphone</span></div>
+            <div style="font-size:48px;font-weight:600;color:#2b2d42;line-height:1.2">Waiting for new messages!</div>
+            <div style="font-size:20px;font-weight:500;color:#6b7280">Here’s to a quiet moment, filled with love.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============ FLOW 2 · BOARD & CLOCK ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">2 · Board display &amp; top bar</div><div style="font-size:20px;color:#6b7280">Collapsed → tap to open → clock sizes from Settings</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Landscape (bar collapsed)</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="collapsed" dots="{{ true }}" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Landscape — Close</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="close" dots="{{ true }}" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Landscape — Open</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" dots="{{ true }}" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Hidden clock</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="hidden" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Small clock</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="small" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Medium clock</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Large clock</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="large" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FLOW 3 · QUICK CONTROLS ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">3 · Quick controls</div><div style="font-size:20px;color:#6b7280">Brightness and volume, opened from the top bar</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Screen brightness</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" dots="{{ true }}" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:405px;top:340px;width:470px;box-sizing:border-box;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:24px">
+            <div style="font-size:20px;font-weight:500;color:#2b2d42">Screen brightness</div>
+            <div style="display:flex;align-items:center;gap:16px">
+              <span style="font-family:'Material Symbols Rounded';font-size:32px;color:#2b2d42">brightness_medium</span>
+              <div style="position:relative;width:390px;height:40px;border-radius:1000px;background:#f8f9fb;overflow:hidden">
+                <div style="position:absolute;left:0;top:0;width:117px;height:40px;border-radius:1000px 0 0 1000px;background:linear-gradient(90deg,#7f2ccb,#ab5df0)"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Volume</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" dots="{{ true }}" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:405px;top:340px;width:470px;box-sizing:border-box;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:24px">
+            <div style="font-size:20px;font-weight:500;color:#2b2d42">Volume</div>
+            <div style="display:flex;align-items:center;gap:16px">
+              <span style="font-family:'Material Symbols Rounded';font-size:32px;color:#2b2d42">volume_up</span>
+              <div style="position:relative;width:390px;height:40px;border-radius:1000px;background:#f8f9fb;overflow:hidden">
+                <div style="position:absolute;left:0;top:0;width:117px;height:40px;border-radius:1000px 0 0 1000px;background:linear-gradient(90deg,#7f2ccb,#ab5df0)"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FLOW 4 · READ CONFIRMATION ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">4 · Read confirmation</div><div style="font-size:20px;color:#6b7280">Kelly Green “Read” button → “Confirmed!” card</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Read receipt — not confirmed</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:1052px;top:675px;width:188px;height:85px;box-sizing:border-box;background:#4cbb17;border-radius:12px;box-shadow:0 0 12px rgba(20,20,20,.06);padding:16px;display:flex;align-items:center;gap:16px">
+            <div style="position:relative;width:53px;height:53px;flex:none;display:flex;align-items:center;justify-content:center">
+              <div style="position:absolute;width:60.57px;height:60.57px;border-radius:50%;background:#def0cb"></div>
+              <img src="assets/touch_app.png" alt="" style="position:relative;width:36px;height:36px" />
+            </div>
+            <div style="font-size:36px;font-weight:600;line-height:1.2;letter-spacing:-.01em;color:#fff">Read</div>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Confirmed</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:1004px;top:671px;width:236px;height:89px;box-sizing:border-box;background:#fff;border-radius:12px;box-shadow:inset 0 0 0 1px #f3f4f6, 0 0 12px rgba(20,20,20,.06);padding:16px;display:flex;align-items:center;gap:16px">
+            <div style="position:relative;width:57px;height:57px;flex:none;display:flex;align-items:center;justify-content:center">
+              <div style="position:absolute;width:65.14px;height:65.14px;border-radius:50%;background:#d2f9e7"></div>
+              <img src="assets/check_circle.svg" alt="" style="position:relative;width:40px;height:40px" />
+            </div>
+            <div style="font-size:24px;font-weight:600;line-height:1.2;color:#2b2d42">Confirmed!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FLOW 5 · DEMENTIA CLOCK ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">5 · Dementia clock</div><div style="font-size:20px;color:#6b7280">Greeting changes with the time of day</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px">
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Good morning</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#f7efff;display:flex;align-items:center;justify-content:center">
+          <div style="width:911px;display:flex;flex-direction:column;align-items:center;gap:24px">
+            <div style="display:flex;align-items:center;gap:14px"><span style="font-family:'Material Symbols Rounded';font-size:46px;color:#7f2ccb">wb_twilight</span><div style="font-size:48px;font-weight:600;color:#7f2ccb">Good morning</div></div>
+            <div style="width:911px;display:flex;flex-direction:column;gap:20px">
+              <div style="border-radius:21px;overflow:hidden">
+                <div style="height:106px;background:#7f2ccb;display:flex;align-items:center;justify-content:space-between;padding:25px 31px;box-sizing:border-box"><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div><div style="font-size:46px;font-weight:600;color:#fff">Monday</div><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div></div>
+                <div style="height:332px;background:#fff;display:flex;align-items:flex-end;justify-content:center;gap:4px;padding:29px 58px;box-sizing:border-box"><div style="font-size:274px;font-weight:600;color:#2b2d42;line-height:1">08:45</div><div style="font-size:64px;font-weight:600;color:#2b2d42;line-height:1.6">AM</div></div>
+              </div>
+              <div style="display:flex;gap:28px;justify-content:space-between">
+                <div style="flex:1.5;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Month</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">February</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Day</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">11</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Year</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">2026</div></div>
+              </div>
+            </div>
+          </div>
+          <div style="position:absolute;left:341px;top:0;width:598px;height:48px;background:rgba(66,66,66,.7);border-radius:0 0 16px 16px;display:flex;align-items:flex-end;justify-content:center;padding:20px 15px;box-sizing:border-box"><div style="width:92px;height:8px;border-radius:1000px;background:#474747"></div></div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Good afternoon</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#f7efff;display:flex;align-items:center;justify-content:center">
+          <div style="width:911px;display:flex;flex-direction:column;align-items:center;gap:24px">
+            <div style="display:flex;align-items:center;gap:14px"><span style="font-family:'Material Symbols Rounded';font-size:46px;color:#7f2ccb">wb_sunny</span><div style="font-size:48px;font-weight:600;color:#7f2ccb">Good afternoon</div></div>
+            <div style="width:911px;display:flex;flex-direction:column;gap:20px">
+              <div style="border-radius:21px;overflow:hidden">
+                <div style="height:106px;background:#7f2ccb;display:flex;align-items:center;justify-content:space-between;padding:25px 31px;box-sizing:border-box"><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div><div style="font-size:46px;font-weight:600;color:#fff">Monday</div><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div></div>
+                <div style="height:332px;background:#fff;display:flex;align-items:flex-end;justify-content:center;gap:8px;padding:29px 58px;box-sizing:border-box"><div style="font-size:274px;font-weight:600;color:#2b2d42;line-height:1">01:30</div><div style="font-size:64px;font-weight:600;color:#2b2d42;line-height:1.6">PM</div></div>
+              </div>
+              <div style="display:flex;gap:28px;justify-content:space-between">
+                <div style="flex:1.5;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Month</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">February</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Day</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">11</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Year</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">2026</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Good evening</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#f7efff;display:flex;align-items:center;justify-content:center">
+          <div style="width:911px;display:flex;flex-direction:column;align-items:center;gap:24px">
+            <div style="display:flex;align-items:center;gap:14px"><span style="font-family:'Material Symbols Rounded';font-size:46px;color:#7f2ccb">wb_twilight</span><div style="font-size:48px;font-weight:600;color:#7f2ccb">Good evening</div></div>
+            <div style="width:911px;display:flex;flex-direction:column;gap:20px">
+              <div style="border-radius:21px;overflow:hidden">
+                <div style="height:106px;background:#7f2ccb;display:flex;align-items:center;justify-content:space-between;padding:25px 31px;box-sizing:border-box"><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div><div style="font-size:46px;font-weight:600;color:#fff">Monday</div><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div></div>
+                <div style="height:332px;background:#fff;display:flex;align-items:flex-end;justify-content:center;gap:8px;padding:29px 58px;box-sizing:border-box"><div style="font-size:274px;font-weight:600;color:#2b2d42;line-height:1">06:20</div><div style="font-size:64px;font-weight:600;color:#2b2d42;line-height:1.6">PM</div></div>
+              </div>
+              <div style="display:flex;gap:28px;justify-content:space-between">
+                <div style="flex:1.5;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Month</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">February</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Day</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">11</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Year</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">2026</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Good night</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#f7efff;display:flex;align-items:center;justify-content:center">
+          <div style="width:911px;display:flex;flex-direction:column;align-items:center;gap:24px">
+            <div style="display:flex;align-items:center;gap:14px"><span style="font-family:'Material Symbols Rounded';font-size:40px;color:#7f2ccb">nightlight_round</span><div style="font-size:48px;font-weight:600;color:#7f2ccb">Good night</div></div>
+            <div style="width:911px;display:flex;flex-direction:column;gap:20px">
+              <div style="border-radius:21px;overflow:hidden">
+                <div style="height:106px;background:#7f2ccb;display:flex;align-items:center;justify-content:space-between;padding:25px 31px;box-sizing:border-box"><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div><div style="font-size:46px;font-weight:600;color:#fff">Monday</div><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div></div>
+                <div style="height:332px;background:#fff;display:flex;align-items:flex-end;justify-content:center;gap:8px;padding:29px 58px;box-sizing:border-box"><div style="font-size:274px;font-weight:600;color:#2b2d42;line-height:1">11:20</div><div style="font-size:64px;font-weight:600;color:#2b2d42;line-height:1.6">PM</div></div>
+              </div>
+              <div style="display:flex;gap:28px;justify-content:space-between">
+                <div style="flex:1.5;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Month</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">February</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Day</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">11</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Year</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">2026</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Good morning (Sleepy mode hint)</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#f7efff;display:flex;align-items:center;justify-content:center">
+          <div style="width:911px;display:flex;flex-direction:column;align-items:center;gap:24px">
+            <div style="display:flex;align-items:center;gap:14px"><span style="font-family:'Material Symbols Rounded';font-size:46px;color:#7f2ccb">wb_twilight</span><div style="font-size:48px;font-weight:600;color:#7f2ccb">Good morning</div></div>
+            <div style="width:911px;display:flex;flex-direction:column;gap:20px">
+              <div style="border-radius:21px;overflow:hidden">
+                <div style="height:106px;background:#7f2ccb;display:flex;align-items:center;justify-content:space-between;padding:25px 31px;box-sizing:border-box"><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div><div style="font-size:46px;font-weight:600;color:#fff">Monday</div><div style="width:32px;height:32px;border-radius:99px;background:#ab5df0"></div></div>
+                <div style="height:332px;background:#fff;display:flex;align-items:flex-end;justify-content:center;gap:4px;padding:29px 58px;box-sizing:border-box"><div style="font-size:274px;font-weight:600;color:#2b2d42;line-height:1">08:45</div><div style="font-size:64px;font-weight:600;color:#2b2d42;line-height:1.6">AM</div></div>
+              </div>
+              <div style="display:flex;gap:28px;justify-content:space-between">
+                <div style="flex:1.5;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Month</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">February</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Day</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">11</div></div>
+                <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:21px;padding:26px 31px;display:flex;flex-direction:column;align-items:center;gap:21px;box-sizing:border-box"><div style="font-size:24px;font-weight:600;color:#7f2ccb">Year</div><div style="font-size:72px;font-weight:600;color:#7f2ccb;line-height:1">2026</div></div>
+              </div>
+            </div>
+          </div>
+          <div style="position:absolute;left:962px;top:32px;width:256px;box-sizing:border-box;background:#fff;border:1px solid #f3f4f6;border-radius:12px;padding:16px;display:flex;align-items:center;gap:16px">
+            <span style="font-family:'Material Symbols Rounded';font-size:40px;color:#2b2d42">snooze</span>
+            <div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:24px;font-weight:600;color:#2b2d42">Sleepy mode</div><div style="font-size:20px;font-weight:500;color:#4b5563">Tap the screen</div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============ FLOW 6 · SETTINGS ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">6 · Settings on the board</div><div style="font-size:20px;color:#6b7280">Sleep mode · Top bar clock · Dementia clock · App version</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px;align-items:flex-start">
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Settings — all toggles off</div>
+        <div style="position:relative;width:1280px;height:853px;border-radius:8px;overflow:hidden;background:#fffaf9">
+          <div style="position:absolute;left:32px;top:46px;display:flex;align-items:center;gap:8px">
+            <div style="width:48px;height:48px;border-radius:999px;background:#fff;border:1px solid #f3f4f6;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#2b2d42">arrow_back</span></div>
+            <div style="font-size:18px;font-weight:500;color:#2b2d42">Back</div>
+          </div>
+          <div style="position:absolute;left:290px;top:46px;width:701px;display:flex;flex-direction:column;gap:24px;padding-top:64px">
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div style="font-size:56px;font-weight:600;color:#2b2d42;line-height:1.2">Settings</div>
+              <div style="font-size:24px;font-weight:600;color:#6b7280">Select your time zone to set the date and time automatically </div>
+            </div>
+            <div style="border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:24px">
+              <div style="font-size:20px;font-weight:600;color:#374151">First, select your region. Next, select your time zone.</div>
+              <div style="display:flex;flex-direction:column;gap:16px">
+                <div style="height:40px;box-sizing:border-box;border:1px solid #f3f4f6;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 12px"><div style="font-size:16px;color:#6b7280">Americas</div><span style="font-family:'Material Symbols Rounded';font-size:18px;color:#6b7280">expand_more</span></div>
+                <div style="height:40px;box-sizing:border-box;border:1px solid #f3f4f6;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 12px"><div style="font-size:16px;color:#6b7280">New York - Eastern Standard Time (GM-05:00)</div><span style="font-family:'Material Symbols Rounded';font-size:18px;color:#6b7280">expand_more</span></div>
+              </div>
+            </div>
+            <div style="border-radius:16px;padding:16px;display:flex;align-items:center;justify-content:space-between"><div style="font-size:20px;font-weight:500;color:#2b2d42">Sleep mode</div><div style="width:44px;height:24px;border-radius:1000px;background:#e5e7eb;display:flex;align-items:center;padding:2px;box-sizing:border-box"><div style="width:16px;height:16px;border-radius:99px;background:#fff;margin-left:2px"></div></div></div>
+            <div style="border-radius:16px;padding:16px;display:flex;align-items:center;justify-content:space-between"><div style="font-size:20px;font-weight:500;color:#2b2d42">Top bar clock</div><div style="width:44px;height:24px;border-radius:1000px;background:#e5e7eb;display:flex;align-items:center;padding:2px;box-sizing:border-box"><div style="width:16px;height:16px;border-radius:99px;background:#fff;margin-left:2px"></div></div></div>
+            <div style="border-radius:16px;padding:16px;display:flex;align-items:center;justify-content:space-between"><div style="font-size:20px;font-weight:500;color:#2b2d42">Dementia clock</div><div style="width:44px;height:24px;border-radius:1000px;background:#e5e7eb;display:flex;align-items:center;padding:2px;box-sizing:border-box"><div style="width:16px;height:16px;border-radius:99px;background:#fff;margin-left:2px"></div></div></div>
+            <div style="border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:2px"><div style="font-size:20px;font-weight:500;color:#2b2d42">App version</div><div style="font-size:14px;font-weight:500;color:#6b7280">Memory Board v1.0.0</div></div>
+            <div style="display:flex;gap:24px">
+              <div style="flex:1;height:48px;border-radius:1000px;background:#fff;border:1px solid #9ca3af;color:#2b2d42;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center;box-sizing:border-box">Check for updates</div>
+              <div style="flex:1;height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Confirm</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Settings — expanded (all on)</div>
+        <div style="position:relative;width:1280px;height:1319px;border-radius:8px;overflow:hidden;background:#fff">
+          <div style="position:absolute;left:32px;top:46px;display:flex;align-items:center;gap:8px">
+            <div style="width:48px;height:48px;border-radius:999px;background:#fff;border:1px solid #f3f4f6;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#2b2d42">arrow_back</span></div>
+            <div style="font-size:18px;font-weight:500;color:#2b2d42">Back</div>
+          </div>
+          <div style="position:absolute;left:290px;top:46px;width:701px;display:flex;flex-direction:column;gap:20px;padding-top:64px">
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div style="font-size:48px;font-weight:600;color:#2b2d42;line-height:1.2">Settings</div>
+              <div style="font-size:20px;font-weight:600;color:#6b7280">Select your time zone to set the date and time automatically </div>
+            </div>
+            <div style="border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:24px">
+              <div style="font-size:20px;font-weight:600;color:#374151">First, select your region. Next, select your time zone.</div>
+              <div style="display:flex;flex-direction:column;gap:16px">
+                <div style="height:40px;box-sizing:border-box;border:1px solid #f3f4f6;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 12px"><div style="font-size:16px;color:#6b7280">Americas</div><span style="font-family:'Material Symbols Rounded';font-size:18px;color:#6b7280">expand_more</span></div>
+                <div style="height:40px;box-sizing:border-box;border:1px solid #f3f4f6;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 12px"><div style="font-size:16px;color:#6b7280">New York - Eastern Standard Time (GM-05:00)</div><span style="font-family:'Material Symbols Rounded';font-size:18px;color:#6b7280">expand_more</span></div>
+              </div>
+            </div>
+            <div style="border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:24px">
+              <div style="display:flex;align-items:center;justify-content:space-between"><div style="font-size:20px;font-weight:500;color:#2b2d42">Sleep mode</div><div style="width:44px;height:24px;border-radius:1000px;background:#7f2ccb;display:flex;align-items:center;justify-content:flex-end;padding:2px;box-sizing:border-box"><div style="width:16px;height:16px;border-radius:99px;background:#fff;margin-right:2px"></div></div></div>
+              <div style="display:flex;gap:24px">
+                <div style="flex:1;display:flex;flex-direction:column;gap:8px"><div style="font-size:14px;font-weight:500;color:#1f2937">Sleep from</div><div style="height:40px;box-sizing:border-box;border:1px solid #f3f4f6;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 12px"><div style="font-size:16px;color:#6b7280">07:00pm</div><span style="font-family:'Material Symbols Rounded';font-size:18px;color:#6b7280">schedule</span></div></div>
+                <div style="flex:1;display:flex;flex-direction:column;gap:8px"><div style="font-size:14px;font-weight:500;color:#1f2937">Wake at</div><div style="height:40px;box-sizing:border-box;border:1px solid #f3f4f6;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 12px"><div style="font-size:16px;color:#6b7280">07:00am</div><span style="font-family:'Material Symbols Rounded';font-size:18px;color:#6b7280">schedule</span></div></div>
+              </div>
+            </div>
+            <div style="border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:24px">
+              <div style="display:flex;align-items:center;justify-content:space-between"><div style="font-size:20px;font-weight:500;color:#2b2d42">Top bar clock</div><div style="width:44px;height:24px;border-radius:1000px;background:#7f2ccb;display:flex;align-items:center;justify-content:flex-end;padding:2px;box-sizing:border-box"><div style="width:16px;height:16px;border-radius:99px;background:#fff;margin-right:2px"></div></div></div>
+              <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:4px;display:flex;gap:0">
+                <div style="flex:1;border-radius:8px;padding:8px;display:flex;flex-direction:column;align-items:center;gap:7px"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#2b2d42">schedule</span><div style="font-size:12px;color:#2b2d42">SMALL</div></div>
+                <div style="flex:1;border-radius:8px;background:#f3f4f6;padding:8px;display:flex;flex-direction:column;align-items:center;gap:7px"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#4d0e87">schedule</span><div style="font-size:12px;font-weight:500;color:#4d0e87">MEDIUM</div></div>
+                <div style="flex:1;border-radius:8px;padding:8px;display:flex;flex-direction:column;align-items:center;gap:7px"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#2b2d42">schedule</span><div style="font-size:12px;color:#2b2d42">LARGE</div></div>
+              </div>
+            </div>
+            <div style="border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:24px">
+              <div style="display:flex;align-items:center;justify-content:space-between"><div style="font-size:20px;font-weight:500;color:#2b2d42">Dementia clock</div><div style="width:44px;height:24px;border-radius:1000px;background:#7f2ccb;display:flex;align-items:center;justify-content:flex-end;padding:2px;box-sizing:border-box"><div style="width:16px;height:16px;border-radius:99px;background:#fff;margin-right:2px"></div></div></div>
+              <div style="display:flex;flex-direction:column;gap:16px">
+                <div style="display:flex;flex-direction:column;gap:8px">
+                  <div style="font-size:12px;color:#6b7280">Choose a base color</div>
+                  <div style="display:flex;gap:12px;justify-content:space-between">
+                    <div style="width:48px;height:48px;border-radius:12px;background:#7f2ccb;border:2px solid #4d0e87;box-sizing:border-box;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#fff">check</span></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#ab5df0;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#ef4444;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#ec4899;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#f97316;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#eab308;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#22c55e;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#3b82f6;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#1b1b1b;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#6b7280;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                    <div style="width:48px;height:48px;border-radius:12px;background:#f8f8f8;border:1px solid #e5e7eb;box-sizing:border-box"></div>
+                  </div>
+                </div>
+                <div style="background:#fff;border:1px solid #f3f4f6;border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:8px">
+                  <div style="font-size:16px;font-weight:500;color:#6b7280">Preview</div>
+                  <div style="background:#f6ecff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:18px">
+                    <div style="width:315px;border-radius:7px;overflow:hidden">
+                      <div style="background:#7f2ccb;padding:9px 11px;text-align:center;font-size:16px;font-weight:600;color:#fff">Monday</div>
+                      <div style="background:#fff;padding:10px 20px;text-align:center;font-size:56px;font-weight:600;color:#2b2d42;line-height:1.2">08:45 <span style="font-size:20px">AM</span></div>
+                    </div>
+                    <div style="width:315px;display:flex;gap:10px;justify-content:space-between">
+                      <div style="flex:1.5;background:#fff;border:1px solid #f3f4f6;border-radius:7px;padding:9px 11px;display:flex;flex-direction:column;align-items:center;gap:7px"><div style="font-size:9px;font-weight:600;color:#7f2ccb">Month</div><div style="font-size:25px;font-weight:600;color:#7f2ccb;line-height:1">February</div></div>
+                      <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:7px;padding:9px 11px;display:flex;flex-direction:column;align-items:center;gap:7px"><div style="font-size:9px;font-weight:600;color:#7f2ccb">Day</div><div style="font-size:25px;font-weight:600;color:#7f2ccb;line-height:1">11</div></div>
+                      <div style="flex:1;background:#fff;border:1px solid #f3f4f6;border-radius:7px;padding:9px 11px;display:flex;flex-direction:column;align-items:center;gap:7px"><div style="font-size:9px;font-weight:600;color:#7f2ccb">Year</div><div style="font-size:25px;font-weight:600;color:#7f2ccb;line-height:1">2026</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:2px"><div style="font-size:20px;font-weight:500;color:#2b2d42">App version</div><div style="font-size:14px;font-weight:500;color:#6b7280">Memory Board v1.0.0</div></div>
+            <div style="display:flex;gap:24px">
+              <div style="flex:1;height:48px;border-radius:1000px;background:#fff;border:1px solid #9ca3af;color:#2b2d42;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center;box-sizing:border-box">Check for updates</div>
+              <div style="flex:1;height:48px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Confirm</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Modal · available builds</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden;background:#fffaf9">
+          <div style="position:absolute;inset:0;background:rgba(66,66,66,.7)"></div>
+          <div style="position:absolute;left:104px;top:59px;width:1072px;height:682px;box-sizing:border-box;background:#fff;border-radius:23px;padding:46px;display:flex;flex-direction:column;gap:24px">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:35px">
+              <div style="width:40px"></div>
+              <div style="flex:1;display:flex;justify-content:center"><img src="assets/logo.svg" alt="MemoryBoard" style="width:176px;height:49px" /></div>
+              <div style="width:48px;height:48px;border-radius:999px;border:1px solid #f3f4f6;display:flex;align-items:center;justify-content:center"><span style="font-family:'Material Symbols Rounded';font-size:20px;color:#2b2d42">close</span></div>
+            </div>
+            <div style="border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+              <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;border-bottom:1px solid #e5e7eb">
+                <div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:18px;font-weight:600;color:#2b2d42">Available builds</div><div style="font-size:14px;color:#6b7280">Pick the environment and the build to install on this board</div></div>
+                <div style="background:#f3f4f6;border-radius:8px;padding:4px;display:flex;gap:0">
+                  <div style="border-radius:6px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;padding:6px 20px">DEVELOP</div>
+                  <div style="border-radius:6px;color:#4b5563;font-size:16px;padding:6px 20px">HOMOL</div>
+                  <div style="border-radius:6px;color:#4b5563;font-size:16px;padding:6px 20px">PROD</div>
+                </div>
+              </div>
+              <div style="display:flex;background:#f8f9fb;font-size:14px;font-weight:500;color:#6b7280">
+                <div style="width:62px;padding:8px 12px">ID</div>
+                <div style="width:257px;padding:8px 12px">Task / Version</div>
+                <div style="width:136px;padding:8px 12px">Type</div>
+                <div style="width:82px;padding:8px 12px">Build</div>
+                <div style="width:165px;padding:8px 12px">MD5</div>
+                <div style="width:113px;padding:8px 12px">Uploaded</div>
+                <div style="width:165px;padding:8px 12px">Label</div>
+              </div>
+              <sc-for list="{{ builds }}" as="row" hint-placeholder-count="5">
+                <div style="display:flex;align-items:center;border-top:1px solid #e5e7eb;font-size:14px;font-weight:500;color:#2b2d42;height:64px">
+                  <div style="width:62px;padding:12px">{{ row.id }}</div>
+                  <div style="width:257px;padding:12px;display:flex;flex-direction:column;gap:4px"><div>{{ row.task }}</div><div style="font-size:12px;color:#6b7280">{{ row.version }}</div></div>
+                  <div style="width:136px;padding:12px"><span style="display:inline-flex;align-items:center;gap:8px;background:#f6ecff;color:#4d0e87;border-radius:1000px;padding:4px 12px;font-size:14px;font-weight:500">LABEL</span></div>
+                  <div style="width:82px;padding:12px">{{ row.build }}</div>
+                  <div style="width:165px;padding:12px">dcc0006bc...76ae</div>
+                  <div style="width:113px;padding:12px;display:flex;flex-direction:column;gap:4px"><div>Mar 11, 2026</div><div style="font-size:12px;color:#6b7280">04:01 PM</div></div>
+                  <div style="width:165px;padding:12px"><span style="display:inline-flex;align-items:center;justify-content:center;background:#7f2ccb;color:#fff;border-radius:1000px;padding:8px 16px;font-size:16px;font-weight:500">Install</span></div>
+                </div>
+              </sc-for>
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-top:1px solid #e5e7eb">
+                <div style="display:flex;gap:4px">
+                  <div style="width:40px;height:40px;border-radius:8px;background:#f6ecff;color:#4d0e87;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600">1</div>
+                  <div style="width:40px;height:40px;border-radius:8px;color:#6b7280;display:flex;align-items:center;justify-content:center;font-size:14px">2</div>
+                  <div style="width:40px;height:40px;border-radius:8px;color:#6b7280;display:flex;align-items:center;justify-content:center;font-size:14px">3</div>
+                  <div style="width:40px;height:40px;border-radius:8px;color:#6b7280;display:flex;align-items:center;justify-content:center;font-size:14px">4</div>
+                  <div style="width:40px;height:40px;border-radius:8px;color:#6b7280;display:flex;align-items:center;justify-content:center;font-size:14px">5</div>
+                </div>
+                <div style="font-size:16px;font-weight:500;color:#2b2d42">Página 1 de 10</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============ FLOW 7 · UPDATE ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">7 · Board update</div><div style="font-size:20px;color:#6b7280">Required for Read confirmation (board v1.26)</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px">
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Downloading the latest update</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="compact" dots="{{ true }}" pills="round" from="pill" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;inset:0;background:rgba(66,66,66,.7)"></div>
+          <div style="position:absolute;left:340px;top:225px;width:600px;box-sizing:border-box;background:#fff;border-radius:16px;padding:32px;display:flex;flex-direction:column;align-items:center;gap:24px">
+            <img src="assets/logo.svg" alt="MemoryBoard" style="width:176px;height:49px" />
+            <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+              <div style="font-size:20px;font-weight:500;color:#2b2d42">We’re downloading the latest update.</div>
+              <div style="font-size:14px;color:#6b7280">This may take a moment.</div>
+            </div>
+            <img src="assets/spinner.png" alt="" style="width:84px;height:84px" />
+            <div style="width:536px;background:#fff3d4;border-radius:1000px;padding:8px 12px;display:flex;align-items:center;gap:8px;box-sizing:border-box">
+              <span style="font-family:'Material Symbols Rounded';font-size:16px;color:#9e450e">info</span>
+              <div style="flex:1;font-size:14px;color:#9e450e">This board has 2 expired posts</div>
+              <span style="font-family:'Material Symbols Rounded';font-size:16px;color:#9e450e">north_east</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Board updated successfully</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="compact" dots="{{ true }}" pills="round" from="pill" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;inset:0;background:rgba(66,66,66,.7)"></div>
+          <div style="position:absolute;left:340px;top:276px;width:600px;box-sizing:border-box;background:#fff;border-radius:16px;padding:32px;display:flex;flex-direction:column;align-items:center;gap:24px">
+            <img src="assets/logo.svg" alt="MemoryBoard" style="width:176px;height:49px" />
+            <div style="display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center">
+              <div style="font-size:20px;font-weight:500;color:#2b2d42">Board updated successfully</div>
+              <div style="font-size:14px;color:#6b7280">You’re now using the latest version. This message will close in 60 seconds.</div>
+            </div>
+            <div style="width:536px;height:40px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Continue</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============ FLOW 8 · TOASTS ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">8 · Toasts on the board</div><div style="font-size:20px;color:#6b7280">Top-right, 324 px wide</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px">
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Board offline</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:924px;top:32px;width:324px;box-sizing:border-box;background:#e5e7eb;border-radius:4px;padding:12px 16px;display:flex;flex-direction:column;gap:10px">
+            <div style="display:flex;gap:16px">
+              <span style="font-family:'Material Symbols Rounded';font-size:32px;color:#6b7280">wifi_off</span>
+              <div style="flex:1;display:flex;flex-direction:column;gap:4px">
+                <div style="display:flex;align-items:center;justify-content:space-between"><div style="font-size:18px;font-weight:500;color:#2b2d42">Board offline</div><span style="font-family:'Material Symbols Rounded';font-size:24px;color:#6b7280">close</span></div>
+                <div style="font-size:16px;font-weight:500;color:#6b7280">Please connect the board to the internet.</div>
+              </div>
+            </div>
+            <div style="height:40px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Open Wi-Fi settings</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Success</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:924px;top:32px;width:324px;border-radius:4px;overflow:hidden">
+            <div style="background:#d2f9e7;padding:12px 16px;display:flex;gap:16px;box-sizing:border-box">
+              <span style="font-family:'Material Symbols Rounded';font-size:24px;color:#088767">check_circle</span>
+              <div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="font-size:14px;font-weight:500;color:#2b2d42">Success!</div><div style="font-size:12px;font-weight:500;color:#6b7280">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. </div></div>
+            </div>
+            <div style="height:4px;background:#d2f9e7"><div style="width:100px;height:4px;background:#088767"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Error</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:924px;top:32px;width:324px;border-radius:4px;overflow:hidden">
+            <div style="background:#fee2e3;padding:12px 16px;display:flex;gap:16px;box-sizing:border-box">
+              <span style="font-family:'Material Symbols Rounded';font-size:24px;color:#de242a">cancel</span>
+              <div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="font-size:14px;font-weight:500;color:#2b2d42">Error!</div><div style="font-size:12px;font-weight:500;color:#6b7280">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. </div></div>
+            </div>
+            <div style="height:4px;background:#fee2e3"><div style="width:100px;height:4px;background:#de242a"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Alert</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:924px;top:32px;width:324px;border-radius:4px;overflow:hidden">
+            <div style="background:#fff3d4;padding:12px 16px;display:flex;gap:16px;box-sizing:border-box">
+              <span style="font-family:'Material Symbols Rounded';font-size:24px;color:#f07406">warning</span>
+              <div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="font-size:14px;font-weight:500;color:#2b2d42">Alert!</div><div style="font-size:12px;font-weight:500;color:#6b7280">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. </div></div>
+            </div>
+            <div style="height:4px;background:#fff3d4"><div style="width:100px;height:4px;background:#f07406"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Info</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:924px;top:32px;width:324px;border-radius:4px;overflow:hidden">
+            <div style="background:#dbeafe;padding:12px 16px;display:flex;gap:16px;box-sizing:border-box">
+              <span style="font-family:'Material Symbols Rounded';font-size:24px;color:#2563eb">info</span>
+              <div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="font-size:14px;font-weight:500;color:#2b2d42">Info!</div><div style="font-size:12px;font-weight:500;color:#6b7280">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis lectus facilisis, cursus diam id, malesuada purus. </div></div>
+            </div>
+            <div style="height:4px;background:#dbeafe"><div style="width:100px;height:4px;background:#2563eb"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============ FLOW 9 · SLEEP MODE ============ -->
+  <div style="display:flex;flex-direction:column;gap:32px">
+    <div style="display:flex;align-items:baseline;gap:16px"><div style="font-size:32px;font-weight:600;color:#fff">9 · Sleep mode</div><div style="font-size:20px;color:#6b7280">Turns on → screen sleeps → wakes on touch</div></div>
+    <div style="display:flex;flex-wrap:wrap;gap:64px">
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Sleep mode is on</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:924px;top:32px;width:324px;box-sizing:border-box;background:#e5e7eb;border-radius:4px;padding:12px 16px;display:flex;flex-direction:column;gap:10px">
+            <div style="display:flex;gap:16px">
+              <span style="font-family:'Material Symbols Rounded';font-size:32px;color:#6b7280">bedtime</span>
+              <div style="flex:1;display:flex;flex-direction:column;gap:4px">
+                <div style="display:flex;align-items:center;justify-content:space-between"><div style="font-size:18px;font-weight:500;color:#2b2d42">Sleep mode is on</div><span style="font-family:'Material Symbols Rounded';font-size:24px;color:#6b7280">close</span></div>
+                <div style="font-size:12px;font-weight:500;color:#6b7280">If no interaction happens for 1 minute, the screen will go to sleep. You can turn off Sleep Mode anytime in Settings.</div>
+              </div>
+            </div>
+            <div style="height:40px;border-radius:1000px;background:#7f2ccb;color:#fff;font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:center">Open settings</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Sleepy mode activated</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="compact" dots="{{ true }}" pills="round" from="pill" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;inset:0;background:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center">
+            <div style="font-size:72px;font-weight:600;color:#4b5563">Sleepy Mode activated.</div>
+            <div style="font-size:36px;font-weight:600;color:#4b5563">The board will be activated when you touch the screen.</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:20px;font-weight:500;color:#9ca3af">Sleep mode finished</div>
+        <div style="position:relative;width:1280px;height:800px;border-radius:8px;overflow:hidden">
+          <dc-import name="Componente - Board" clock="medium" hint-size="1280px,800px" style="position:absolute;top:0;left:0;width:1280px;height:800px"></dc-import>
+          <div style="position:absolute;left:924px;top:32px;width:324px;border-radius:4px;overflow:hidden">
+            <div style="background:#dbeafe;padding:12px 16px;display:flex;gap:16px;box-sizing:border-box">
+              <span style="font-family:'Material Symbols Rounded';font-size:24px;color:#2563eb">info</span>
+              <div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="font-size:14px;font-weight:500;color:#2b2d42">Sleep mode finished</div><div style="font-size:12px;font-weight:500;color:#6b7280">The screen is back on. It will activate again at the next scheduled time, if set.</div></div>
+            </div>
+            <div style="height:4px;background:#dbeafe"><div style="width:100px;height:4px;background:#2563eb"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  qr(seed) {
+    // deterministic pseudo-QR: 25x25 modules, finder patterns + hashed data cells
+    const N = 25, cells = [];
+    let h = 0;
+    for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+    const rnd = () => { h ^= h << 13; h >>>= 0; h ^= h >> 17; h ^= h << 5; h >>>= 0; return h / 4294967296; };
+    const inFinder = (r, c) =>
+      (r < 7 && c < 7) || (r < 7 && c >= N - 7) || (r >= N - 7 && c < 7);
+    const finderOn = (r, c) => {
+      const rr = r < 7 ? r : r - (N - 7), cc = c < 7 ? c : c - (N - 7);
+      const d = Math.max(Math.abs(rr - 3), Math.abs(cc - 3));
+      return d === 3 || d === 1 || d === 0;
+    };
+    for (let r = 0; r < N; r++) for (let c = 0; c < N; c++) {
+      const on = inFinder(r, c) ? finderOn(r, c)
+        : (r === 6 || c === 6) ? (r + c) % 2 === 0
+        : rnd() > 0.5;
+      if (on) cells.push({ key: r + "-" + c, x: c * 8, y: r * 8 });
+    }
+    return cells;
+  }
+  renderVals() {
+    return {
+      qrPlay: this.qr("https://play.google.com/store/apps/memoryboard"),
+      qrApple: this.qr("https://apps.apple.com/app/memoryboard"),
+      builds: [
+        { id: "1", task: "White text on black background for waiting screen ", version: "v1.25.7", build: "80" },
+        { id: "2", task: "Board settings in the app", version: "v1.25.7", build: "70" },
+        { id: "3", task: "New feature for collaborative editing", version: "v1.26.0", build: "80" },
+        { id: "4", task: "Improved accessibility options", version: "v1.26.0", build: "90" },
+        { id: "5", task: "Bug fixes and performance enhancements", version: "v1.26.0", build: "90" }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
